@@ -1,5 +1,5 @@
 import React from 'react'
-import {NavBarData} from './NavBarData'
+
 
 function NavBar() {
     return (
