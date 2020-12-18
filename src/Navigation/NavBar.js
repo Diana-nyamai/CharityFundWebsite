@@ -11,7 +11,12 @@ function NavBar() {
               </ul>
              </div>
             <div className="header-lower">
-            
+                <ul className="nav-bar">
+                <li className="row">
+                <div id="icon"></div>
+                <div id="link"></div>
+                </li>
+                </ul>
             </div>
             </div>
         </div>
