@@ -1,5 +1,5 @@
 import React from 'react'
-import NavBarData from './NavBarData'
+import {NavBarData} from './NavBarData'
 
 function NavBar() {
     return (
@@ -12,15 +12,8 @@ function NavBar() {
               </ul>
              </div>
             <div className="header-lower">
-                <ul className="nav-bar">
-                {NavBarData.map((key,value)=>{
-                    <li key={key} className="row" >
-                <div id="icon">{value.tile}</div>
-                <div id="link"></div>
-                </li>
-                })}
+              
                 
-                </ul>
             </div>
             </div>
         </div>
