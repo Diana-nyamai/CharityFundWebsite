@@ -12,3 +12,7 @@ body{
     height: 150px;
     background-color: pink;
 }
+.header-upper{
+    height: 50px;
+    border-bottom: 1px solid gray;
+}
