@@ -6,7 +6,6 @@ export const NavBarData = [
     {
         title:"Home",
         link:"#"
-
     },
 
     {
