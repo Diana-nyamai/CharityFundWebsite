@@ -26,5 +26,16 @@ body{
     flex-direction: row;
     padding: 15px;
     font-weight: bold;
-    
+    }
+.nav-list{
+    display: flex;
+}
+.nav-list .row{
+    list-style-type: none;
+    flex-direction: row;
+    width: 100px;
+    height: 20px;
+}
+.row #title{
+
 }
