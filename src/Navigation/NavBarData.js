@@ -1,20 +1,20 @@
 import React from 'react';
-import  {HomeIcon } from '@material-ui/icons/Home';
+import EventIcon from '@material-ui/icons/Event';
+
 
 export const NavBarData = [
     {
         title:"Home",
-        icon:<HomeIcon/>,
         link:"#"
     },
     {
         title:"About Us",
-        icon:"#",
+       
         link:"#"
     },
     {
         title:"Event",
-        icon:"#",
+        icon:<EventIcon/>,
         link:"#"
     },
     {
