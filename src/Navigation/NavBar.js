@@ -6,8 +6,8 @@ function NavBar() {
             <div className="main-header">
              <div className="header-upper">
               <ul className="upper-ul">
-              <li className="row">call us:+254798777814</li>
-              <li className="row">message us:dnyamai.dn@gmail.com</li>
+              <li className="row">Call us:+254712 345 678</li>
+              <li className="row">Email us:support@gmail.com</li>
               </ul>
              </div>
             <div className="header-lower">
