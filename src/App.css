@@ -42,11 +42,7 @@ body{
     justify-content: center;
     align-items: center;
 }
-.row #icon{
- flex: 5%;
- display: grid;
- place-items: centre;
-}
+
 .row #title{
     flex: 50%;
 }
