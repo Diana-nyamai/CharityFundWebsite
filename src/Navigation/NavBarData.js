@@ -1,9 +1,10 @@
-import React from 'react'
+import React from 'react';
+import  {HomeIcon } from '@material-ui/icons/Home';
 
 export const NavBarData = [
     {
         title:"Home",
-        icon:"#",
+        icon:<HomeIcon/>,
         link:"#"
     },
     {
