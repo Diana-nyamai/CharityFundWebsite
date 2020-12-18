@@ -1,4 +1,5 @@
 import React from 'react'
+import { NavBarData } from './NavBarData'
 
 
 function NavBar() {
@@ -12,7 +13,18 @@ function NavBar() {
               </ul>
              </div>
             <div className="header-lower">
-              
+              <ul>
+              {
+                  NavBarData.map((value, key) =>{
+                      return(
+                          <li key={key} className="row">
+                          <div id="icon">{value.icon}</div>
+                          <div id="title"> {value.title}</div>
+                          </li>
+                      )
+                  })
+              }
+              </ul>
                 
             </div>
             </div>
