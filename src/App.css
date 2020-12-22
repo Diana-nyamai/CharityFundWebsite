@@ -7,24 +7,3 @@ body{
     color: #000;
     font-size: 18px;
 }
-.main-header{
-    width: 100vw;
-    height: 150px;
-    background-color: pink;
-}
-.header-upper{
-    height: 50px;
-    border-bottom: 1px solid gray;
-    background-color: rgb(224, 161, 172);
-}
-.upper-ul{
-    display: flex;
-    
-}
-.upper-ul .row{
-    list-style-type: none;
-    flex-direction: row;
-    font-weight: bold;
-    padding: 20px;
-    }
-
