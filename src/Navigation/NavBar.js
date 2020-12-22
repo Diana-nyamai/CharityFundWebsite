@@ -2,9 +2,14 @@ import React from 'react'
 
 const NavBar = () => {
     return (
-        <div>
-            
-        </div>
+       <Nav>
+       <NavMenu>
+       <NavLink>Home</NavLink>
+       <NavLink>About us</NavLink>
+       <NavLink>Event</NavLink>
+       <NavLink>Contact Us</NavLink>
+       </NavMenu>
+       </Nav>
     )
 }
 
