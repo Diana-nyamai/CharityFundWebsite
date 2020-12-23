@@ -15,9 +15,22 @@ export const NavLink = styled(Link)`
   display:flex;
   padding:0 1;
   height:100%;
-  align-items:centre;
+  align-items:center;
   text-decoration:none;
   cursor:pointer;
-  
+`
+export const Bars = styled(FaBars)`
+display:none;
+color:#fff;
 
+@media screen and (max-width:768px){
+    display:block;
+    position:absolute;
+    top:0;
+    right:0;
+    transform:translate(-100% 70%);
+    font-size:1.8rem;
+    cursor:pointer;
+    
+}
 `
