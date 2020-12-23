@@ -1,4 +1,6 @@
 import React from 'react'
+import { Nav, NavLink } from './NavBarElements'
+
 
 const NavBar = () => {
     return (
@@ -6,13 +8,8 @@ const NavBar = () => {
        <NavLink to="/">
           <h1>LOGO</h1>
        </NavLink>
-       <Bars/>
-       <NavMenu>
-       <NavLink to="/">Home</NavLink>
-       <NavLink to="/AboutPage">About us</NavLink>
-       <NavLink to="/EventPage">Event</NavLink>
-       <NavLink to="/ContactPage">Contact </NavLink>
-       </NavMenu>
+     
+       
        </Nav>
     )
 }
