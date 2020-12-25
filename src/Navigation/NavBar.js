@@ -4,7 +4,8 @@ import {BrowserRouter as Router} from 'react-router-dom';
 
 const NavBar = () => {
     return (
-       <Router> <Nav>
+       <Router> 
+       <Nav>
        <NavLink to="/">
           <h1>LOGO</h1>
        </NavLink>
