@@ -49,10 +49,12 @@ class Homepage extends React.Component {
           </Router>
           <MDBView src="https://images.unsplash.com/photo-1459183885421-5cc683b8dbba?ixid=MXwxMjA3fDB8MHxzZWFyY2h8OHx8YmxhY2slMjBjaGFyaXR5fGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">
             <MDBMask overlay="purple-light" className="flex-center flex-column text-white text-center">
-              <h2>The home page</h2>
+              <h2>GIVE A HAND</h2>
+              <h2>TO MAKE A BETTER WORLD</h2>
               <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et euismod mauris.</h5>
               <p>Ut eleifend egestas lorem, sit amet imperdiet augue pulvinar non</p><br />
               <p>Quisque eu odio quis nisi molestie venenatis id eget mi. Proin quam felis, consectetur ac ante ut, </p>
+              <p><a href="!#">DONATE NOW</a></p>
             </MDBMask>
           </MDBView>
         </header>

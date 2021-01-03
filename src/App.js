@@ -1,4 +1,5 @@
 import './App.css';
+import '../src/css/Homepage.css'
 import {BrowserRouter as Router, Route} from 'react-router-dom';
 import EventPage from './Pages/EventPage';
 import Homepage from './Pages/HomePage';
