@@ -10,6 +10,7 @@
     "@testing-library/react": "^11.2.2",
     "@testing-library/user-event": "^12.6.0",
     "animate.css": "^4.1.1",
+    "animate.css-react": "^1.1.0",
     "bootstrap": "^4.5.3",
     "components": "^0.1.0",
     "mdbreact": "^5.0.1",
