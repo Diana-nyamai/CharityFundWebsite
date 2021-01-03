@@ -2,6 +2,7 @@ import React from 'react';
 import { MDBNavbar, MDBNavbarNav, MDBNavbarToggler, MDBCollapse, MDBNavItem, MDBContainer, MDBMask, MDBView } from 'mdbreact';
 import { BrowserRouter as Router } from 'react-router-dom';
 import {Nav,Navbar} from 'react-bootstrap';
+import Animate from 'animate.css-react'
 
 class Homepage extends React.Component {
   constructor(props) {
