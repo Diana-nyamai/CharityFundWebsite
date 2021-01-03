@@ -12,9 +12,9 @@ export const Nav = styled.nav`
   z-index:10;
 `
 export const NavLink = styled(Link)`
-  color:#fff;
+  color:#000;
   display:flex;
-  padding:0 1;
+  padding:0 2;
   height:100%;
   align-items:center;
   text-decoration:none;
