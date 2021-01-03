@@ -1,6 +1,7 @@
 import React from 'react';
-import { MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavbarToggler, MDBCollapse, MDBNavItem, MDBNavLink, MDBContainer, MDBMask, MDBView } from 'mdbreact';
+import { MDBNavbar, MDBNavbarNav, MDBNavbarToggler, MDBCollapse, MDBNavItem, MDBNavLink, MDBContainer, MDBMask, MDBView } from 'mdbreact';
 import { BrowserRouter as Router } from 'react-router-dom';
+import {Nav,Navbar} from 'react-bootstrap';
 
 class Homepage extends React.Component {
   constructor(props) {
@@ -24,29 +25,28 @@ class Homepage extends React.Component {
         <header>
           <Router>
             <MDBNavbar color="pink" fixed="top" dark expand="md" scrolling transparent>
-              <MDBNavbarBrand href="/">
+              <Navbar.Brand href="/">
                 <strong>Navbar</strong>
-              </MDBNavbarBrand>
+              </Navbar.Brand>
               {!this.state.isWideEnough && <MDBNavbarToggler onClick={this.onClick} />}
               <MDBCollapse isOpen={this.state.collapse} navbar>
                 <MDBNavbarNav right>
                   <MDBNavItem active>
-                    <MDBNavLink to="/">Home</MDBNavLink>
+                    <Nav.Link href="/">Home</Nav.Link>
                   </MDBNavItem>
                   <MDBNavItem>
-                    <MDBNavLink to="/EventPage">Event</MDBNavLink>
+                    <Nav.Link href="/EventPage">Event</Nav.Link>
                   </MDBNavItem>
                   <MDBNavItem>
-                    <MDBNavLink to="/AboutPage">About Us</MDBNavLink>
+                    <Nav.Link href="/AboutPage">About Us</Nav.Link>
                   </MDBNavItem>
                   <MDBNavItem>
-                    <MDBNavLink to="/ContactPage">Contact Us</MDBNavLink>
+                    <Nav.Link href="/ContactPage">Contact Us</Nav.Link>
                   </MDBNavItem>
                 </MDBNavbarNav>
               </MDBCollapse>
             </MDBNavbar>
           </Router>
-
           <MDBView src="https://images.unsplash.com/photo-1459183885421-5cc683b8dbba?ixid=MXwxMjA3fDB8MHxzZWFyY2h8OHx8YmxhY2slMjBjaGFyaXR5fGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">
             <MDBMask overlay="purple-light" className="flex-center flex-column text-white text-center">
               <h2>This Navbar is fixed</h2>
