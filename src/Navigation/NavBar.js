@@ -9,8 +9,6 @@ const NavBar = () => {
        <NavLink to="/">
           <h1>LOGO</h1>
        </NavLink>
-     
-       
        </Nav>
        </Router>
       
