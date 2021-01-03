@@ -29,15 +29,18 @@ class NavBar extends React.Component {
               </MDBNavbarBrand>
               {!this.state.isWideEnough && <MDBNavbarToggler onClick={this.onClick} />}
               <MDBCollapse isOpen={this.state.collapse} navbar>
-                <MDBNavbarNav left>
+                <MDBNavbarNav right>
                   <MDBNavItem active>
-                    <MDBNavLink to="#">Home</MDBNavLink>
+                    <MDBNavLink to="/HomePage">Home</MDBNavLink>
                   </MDBNavItem>
                   <MDBNavItem>
-                    <MDBNavLink to="#">Link</MDBNavLink>
+                    <MDBNavLink to="/EventPage">Event</MDBNavLink>
                   </MDBNavItem>
                   <MDBNavItem>
-                    <MDBNavLink to="#">Profile</MDBNavLink>
+                    <MDBNavLink to="/AboutPage">About Us</MDBNavLink>
+                  </MDBNavItem>
+                  <MDBNavItem>
+                    <MDBNavLink to="/ContactPage">Contact Us</MDBNavLink>
                   </MDBNavItem>
                 </MDBNavbarNav>
               </MDBCollapse>
