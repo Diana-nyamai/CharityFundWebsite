@@ -58,7 +58,7 @@ class EventPage extends React.Component {
               </Animated>
               <Animated animationIn="bounceInLeft">
               <p>Full page intro with background image will be always displayed in full screen mode, regardless of device </p></Animated>
-              <p className="btn"><a href="!#">DONATE</a></p>
+              <p className="btn"><a href="!#">DONATE NOW</a></p>
               </MDBMask>
           </MDBView>
         </header>
