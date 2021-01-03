@@ -2,7 +2,7 @@ import React from 'react';
 import { MDBNavbar, MDBNavbarNav, MDBNavbarToggler, MDBCollapse, MDBNavItem, MDBContainer, MDBMask, MDBView } from 'mdbreact';
 import { BrowserRouter as Router } from 'react-router-dom';
 import {Nav,Navbar} from 'react-bootstrap';
-import Animate from 'animate.css-react'
+import {Animated} from "react-animated-css";
 
 class Homepage extends React.Component {
   constructor(props) {
@@ -50,11 +50,14 @@ class Homepage extends React.Component {
           </Router>
           <MDBView src="https://images.unsplash.com/photo-1459183885421-5cc683b8dbba?ixid=MXwxMjA3fDB8MHxzZWFyY2h8OHx8YmxhY2slMjBjaGFyaXR5fGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">
             <MDBMask overlay="purple-light" className="flex-center flex-column text-white text-center">
+            <Animated animationIn="fadeInDownBig">
               <h2 >GIVE A HAND</h2>
-              <h2>TO MAKE A BETTER WORLD</h2>
-              <h5 class="animate__animated animate__bounce">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et euismod mauris.</h5>
-              <p>Ut eleifend egestas lorem, sit amet imperdiet augue pulvinar non</p><br />
-              <p>Quisque eu odio quis nisi molestie venenatis id eget mi. Proin quam felis, consectetur ac ante ut, </p>
+              <h2>TO MAKE A BETTER WORLD</h2></Animated>
+              <Animated animationIn="bounceInLeft">
+              <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et euismod mauris.</h5></Animated>
+              <Animated  animationIn="bounceInRight"><p>Ut eleifend egestas lorem, sit amet imperdiet augue pulvinar non</p><br /></Animated>
+              <Animated  animationIn="bounceInLeft"><p>Quisque eu odio quis nisi molestie venenatis id eget mi. Proin quam felis, consectetur ac ante ut, </p>
+              </Animated>
               <p className="btn"><a href="!#">JOIN US TODAY</a></p>
             </MDBMask>
           </MDBView>
