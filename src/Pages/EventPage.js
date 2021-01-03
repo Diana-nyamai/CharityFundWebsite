@@ -2,6 +2,7 @@ import React from 'react';
 import { MDBNavbar, MDBNavbarNav, MDBNavbarToggler, MDBCollapse, MDBNavItem, MDBContainer, MDBMask, MDBView } from 'mdbreact';
 import { BrowserRouter as Router } from 'react-router-dom';
 import {Nav,Navbar} from 'react-bootstrap';
+import {Animated} from "react-animated-css";
 
 class EventPage extends React.Component {
   constructor(props) {
@@ -49,11 +50,16 @@ class EventPage extends React.Component {
           </Router>
           <MDBView src="https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2hhcml0eXxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=500&q=60">
             <MDBMask overlay="purple-light" className="flex-center flex-column text-white text-center">
-              <h2>The Event Page</h2>
-              <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et euismod mauris.</h5>
-              <p>Navbar's background will switch from transparent to solid color while scrolling down</p><br />
-              <p>Full page intro with background image will be always displayed in full screen mode, regardless of device </p>
-            </MDBMask>
+            <Animated animationIn="fadeInDownBig">
+              <h2>The Event Page</h2></Animated>
+              <Animated animationIn="bounceInLeft">
+              <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et euismod mauris.</h5></Animated>
+              <Animated animationIn="bounceInRight"><p>Navbar's background will switch from transparent to solid color while scrolling down</p><br />    
+              </Animated>
+              <Animated animationIn="bounceInLeft">
+              <p>Full page intro with background image will be always displayed in full screen mode, regardless of device </p></Animated>
+              <p className="btn"><a href="!#">DONATE</a></p>
+              </MDBMask>
           </MDBView>
         </header>
 
