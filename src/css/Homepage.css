@@ -90,3 +90,13 @@ h4{
 .social .icons{
     padding: 10px 10px;
 }
+
+/*becomeVolunteer*/
+.volunteer{
+    padding: 100px;
+    width:100%;
+    height: 400px;
+    background: #e96893;
+    color: #fff;
+    overflow-y: hidden;
+}
