@@ -44,3 +44,20 @@ h4{
 .causes img{
     margin-bottom: 30px;
 }
+
+/*timer*/
+.Days{
+    padding: 10px 10px;
+}
+.event{
+    border-radius: 5px;
+    padding: 15px;
+    
+}
+.event:hover{
+    box-shadow: 0px 20px 30px rgba(153, 153, 153, 0.2);
+    cursor: pointer;
+}
+.img-overlay img{
+ border: 10px;
+}

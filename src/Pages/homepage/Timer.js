@@ -5,22 +5,22 @@ export class Timer extends Component {
     render() {
         return (
             <div className="d-flex count_time" id="clockdiv1">
-                <div className="mr-5" >
+                <div className="Days" >
                 <h4 class="days">300</h4>
                 <p>Days </p>
                 </div>
 
-                <div className="mr-5" >
+                <div className="Days" >
                 <h4 class="days">16</h4>
-                <p>Hour</p>
+                <p>Hours</p>
                 </div>
-                <div className="mr-5">
+                <div className="Days">
                 <h4 class="days">30</h4>
-                <p>Min</p>
+                <p>Minutes</p>
                 </div>
-                <div className="mr-5">
+                <div className="Days">
                 <h4 class="days">20</h4>
-                <p>Secs</p>
+                <p>Seconds</p>
                 </div>
             </div>
         )
