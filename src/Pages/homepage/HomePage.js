@@ -5,6 +5,7 @@ import {Nav,Navbar} from 'react-bootstrap';
 import {Animated} from "react-animated-css";
 import FeaturedCauses from './FeaturedCauses';
 import UpcomingEvents from './UpcomingEvents';
+import Volunteers from './Volunteers';
 
 class Homepage extends React.Component {
   constructor(props) {
@@ -116,6 +117,7 @@ class Homepage extends React.Component {
        <h1 style={{textAlign:'center'}}>Our Volunters</h1>
        <p style={{textAlign:'center'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
        </div>
+       <Volunteers/>
 
        {/* */}
         </main>

@@ -61,3 +61,32 @@ h4{
 .img-overlay img{
  border: 10px;
 }
+
+/*volunteers*/
+.team-item{
+    position: relative;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 20px;
+    
+}
+.team-item:hover{
+    box-shadow: 0px 20px 30px rgba(153, 153, 153, 0.2);
+}
+.team-img{
+    border-radius: 5px;
+}
+.team-item .team-name{
+    text-align: center;
+    padding: 20px;
+}
+.team-item .social{
+    margin-top: 20px;
+    padding: 10px 20px;
+}
+.social:hover{
+    cursor: pointer;
+}
+.social .icons{
+    padding: 10px 10px;
+}
