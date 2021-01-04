@@ -1,16 +1,16 @@
 import React from 'react';
-import { MDBCard, MDBCardBody, MDBCardImage, MDBCardTitle, MDBCardText, MDBRow, MDBCol} from 'mdbreact';
-
+import {MDBBtn, MDBCard, MDBCardBody, MDBCardImage, MDBCardTitle, MDBCardText, MDBRow, MDBCol} from 'mdbreact';
+import FavoriteBorderIcon from '@material-ui/icons/FavoriteBorder';
 const FeaturedCauses = () => {
   return (
-    <MDBRow>
-      <MDBCol md='4'>
+    <MDBRow style={{padding:'20px'}}>
+      <MDBCol md='4'style={{paddingBottom:'30px'}}>
         <MDBCard>
           <MDBCardImage
             hover
             overlay='white-light'
             className='card-img-top'
-            src='https://mdbootstrap.com/img/Photos/Others/men.jpg'
+            src='../Images/C1.jpg'
             alt='man'
           />
 
@@ -25,19 +25,26 @@ const FeaturedCauses = () => {
               Sed ut perspiciatis unde omnis iste natus sit voluptatem
               accusantium doloremque laudantium, totam rem aperiam.{' '}
             </MDBCardText>
-
+          <div className="d-flex justify-content-between raised_goal">
+          <p>Raised: ksh.10,000</p>
+          <p style={{color:' #e91e63'}}>Goal: ksh.50,000</p>
+          </div>
           
+          <div className="d-flex justify-content-between donation align-items-center">
+          <MDBBtn color='pink'>Donate</MDBBtn>
+          <p><FavoriteBorderIcon/>90 Donors</p>
+          </div>
           </MDBCardBody>
         </MDBCard>
       </MDBCol>
 
-      <MDBCol md='4'>
+      <MDBCol md='4' style={{paddingBottom:'30px'}}>
         <MDBCard>
           <MDBCardImage
             hover
             overlay='white-light'
             className='card-img-top'
-            src='https://mdbootstrap.com/img/Photos/Others/men.jpg'
+            src='../Images/C2.jpg'
             alt='man'
           />
 
@@ -53,7 +60,15 @@ const FeaturedCauses = () => {
               accusantium doloremque laudantium, totam rem aperiam.{' '}
             </MDBCardText>
 
-          
+            <div className="d-flex justify-content-between raised_goal">
+            <p>Raised: ksh.10,000</p>
+            <p style={{color:' #e91e63'}}>Goal: ksh.50,000</p>
+            </div>
+
+            <div className="d-flex justify-content-between donation align-items-center">
+          <MDBBtn color='pink'>Donate</MDBBtn>
+          <p><FavoriteBorderIcon/>90 Donors</p>
+          </div>
           </MDBCardBody>
         </MDBCard>
       </MDBCol>
@@ -65,7 +80,7 @@ const FeaturedCauses = () => {
             hover
             overlay='white-light'
             className='card-img-top'
-            src='https://mdbootstrap.com/img/Photos/Others/men.jpg'
+            src='../Images/C1.jpg'
             alt='man'
           />
 
@@ -81,7 +96,15 @@ const FeaturedCauses = () => {
               accusantium doloremque laudantium, totam rem aperiam.{' '}
             </MDBCardText>
 
-          
+            <div className="d-flex justify-content-between raised_goal">
+            <p>Raised: ksh.10,000</p>
+            <p style={{color:' #e91e63'}}>Goal: ksh.50,000</p>
+            </div>
+
+            <div className="d-flex justify-content-between donation align-items-center">
+          <MDBBtn color='pink'>Donate</MDBBtn>
+          <p><FavoriteBorderIcon/>90 Donors</p>
+          </div>
           </MDBCardBody>
         </MDBCard>
       </MDBCol>
