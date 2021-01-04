@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import Timer from './Timer'
 
 
 export class UpcomingEvents extends Component {
@@ -10,16 +11,16 @@ export class UpcomingEvents extends Component {
                 <div className="row align-items-center">
                 <div className="col-lg-6 col-md-6">
                 <figure>
-                <img className="img-fluid w-100" src="../Images/C1.jpg" alt="event"/>
-                <div className="img-overlay"></div>
+                
+                <div className="img-overlay"><img className="img-fluid w-100" src="../Images/C1.jpg" alt="event"/></div>
                 </figure>
                 </div>
                 <div className="col-lg-6 col-md-6">
                 <div className="content_wrapper">
-                <h1 className="title"> Help and homelessness</h1>
+                <h4> Help and homelessness</h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et euismod mauris. 
                 Ut eleifend egestas lorem, sit amet imperdiet</p>
-                <div className="d-flex count_time"></div>
+                <Timer/>
                 </div>
                 </div>
                 </div>
