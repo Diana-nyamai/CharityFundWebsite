@@ -64,34 +64,41 @@ class Homepage extends React.Component {
         </header>
 
         <main>
-        <div style={{paddingBottom:'3em'}}>
+        <div style={{paddingBottom:'2em'}}>
          <h1 style={{textAlign:'center'}}>Our Major Causes</h1>
          <p style={{textAlign:'center'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
          </div>
          <div className="row">
          <div className="col-lg-4 col-md-6">
          <div className="causes"> 
-         <h4>Give inspiration</h4>
-         <p>my name is diana and i am a agirl and i like to play games and i take computer science a course and i am pasionate about it</p>
+         <h4>Give Donation</h4>
+         <img src="../Images/donate.png" alt="donate"/>
+         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et euismod mauris. Ut eleifend egestas lorem, sit amet imperdiet augue pulvinar non.</p>
          </div>
          </div>
 
          <div className="col-lg-4 col-md-6">
          <div className="causes"> 
          <h4>Give inspiration</h4>
-         <p>my name is diana and i am a agirl and i like to play games and i take computer science a course and i am pasionate about it</p>
+         <img src="../Images/inspre.png" alt="donate"/>
+         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et euismod mauris. Ut eleifend egestas lorem, sit amet imperdiet augue pulvinar non.</p>
          </div>
          </div>
 
          <div className="col-lg-4 col-md-6">
          <div className="causes"> 
-         <h4>Give inspiration</h4>
-         <p>my name is diana and i am a agirl and i like to play games and i take computer science a course and i am pasionate about it</p>
+         <h4>Become a Volunteer</h4>
+         <img src="../Images/volunteer.png" alt="donate"/>
+         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et euismod mauris. Ut eleifend egestas lorem, sit amet imperdiet augue pulvinar non.</p>
          </div>
          </div>
+ </div>
 
-
-         </div>
+       {/*featured causes*/}
+       <div style={{paddingBottom:'2em'}}>
+       <h1 style={{textAlign:'center'}}>Our Major Causes</h1>
+       <p style={{textAlign:'center'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+       </div>
         </main>
       </div>
     );
