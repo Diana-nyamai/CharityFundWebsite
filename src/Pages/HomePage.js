@@ -68,6 +68,30 @@ class Homepage extends React.Component {
          <h1 style={{textAlign:'center'}}>Our Major Causes</h1>
          <p style={{textAlign:'center'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
          </div>
+         <div className="row">
+         <div className="col-lg-4 col-md-6">
+         <div className="causes"> 
+         <h4>Give inspiration</h4>
+         <p>my name is diana and i am a agirl and i like to play games and i take computer science a course and i am pasionate about it</p>
+         </div>
+         </div>
+
+         <div className="col-lg-4 col-md-6">
+         <div className="causes"> 
+         <h4>Give inspiration</h4>
+         <p>my name is diana and i am a agirl and i like to play games and i take computer science a course and i am pasionate about it</p>
+         </div>
+         </div>
+
+         <div className="col-lg-4 col-md-6">
+         <div className="causes"> 
+         <h4>Give inspiration</h4>
+         <p>my name is diana and i am a agirl and i like to play games and i take computer science a course and i am pasionate about it</p>
+         </div>
+         </div>
+
+
+         </div>
         </main>
       </div>
     );
