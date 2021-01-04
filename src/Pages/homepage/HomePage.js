@@ -4,6 +4,7 @@ import { BrowserRouter as Router } from 'react-router-dom';
 import {Nav,Navbar} from 'react-bootstrap';
 import {Animated} from "react-animated-css";
 import FeaturedCauses from './FeaturedCauses';
+import UpcomingEvents from './UpcomingEvents';
 
 class Homepage extends React.Component {
   constructor(props) {
@@ -108,7 +109,7 @@ class Homepage extends React.Component {
        <h1 style={{textAlign:'center'}}>Upcoming Events</h1>
        <p style={{textAlign:'center'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
        </div>
-      
+      <UpcomingEvents/>
 
        {/*Our volunteers */}
        <div style={{paddingBottom:'2em'}}>
