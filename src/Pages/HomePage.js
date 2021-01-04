@@ -3,7 +3,6 @@ import { MDBNavbar, MDBNavbarNav, MDBNavbarToggler, MDBCollapse, MDBNavItem, MDB
 import { BrowserRouter as Router } from 'react-router-dom';
 import {Nav,Navbar} from 'react-bootstrap';
 import {Animated} from "react-animated-css";
-import { heading1 } from '../shared';
 
 class Homepage extends React.Component {
   constructor(props) {
@@ -65,7 +64,10 @@ class Homepage extends React.Component {
         </header>
 
         <main>
-         <heading1 label=""/>
+        <div style={{paddingBottom:'3em'}}>
+         <h1 style={{textAlign:'center'}}>Our Major Causes</h1>
+         <p style={{textAlign:'center'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+         </div>
         </main>
       </div>
     );
