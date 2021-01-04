@@ -4,20 +4,23 @@ export class Timer extends Component {
     
     render() {
         return (
-            <div className="d-flex count_time">
-                <div className="mr-25">
+            <div className="d-flex count_time" id="clockdiv1">
+                <div className="mr-5" >
                 <h4 class="days">300</h4>
-                <p>Days </p></div>
+                <p>Days </p>
+                </div>
 
-                <div className="mr-25">
+                <div className="mr-5" >
                 <h4 class="days">16</h4>
-                <p>Hours</p></div>
-                <div className="mr-25">
+                <p>Hour</p>
+                </div>
+                <div className="mr-5">
                 <h4 class="days">30</h4>
-                <p>Minutes</p></div>
-                <div className="mr-25">
+                <p>Min</p>
+                </div>
+                <div className="mr-5">
                 <h4 class="days">20</h4>
-                <p>Seconds</p>
+                <p>Secs</p>
                 </div>
             </div>
         )
