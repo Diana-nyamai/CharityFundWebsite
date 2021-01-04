@@ -6,8 +6,10 @@ function BecomeVolunteer() {
         <h1 style={{textAlign:'center' ,color:'#fff'}}>Become A Volunteer</h1>
            
             <p style={{textAlign:'center'}}>So seed seed green that winged cattle in. Gathering thing made 
-            fly you're divided deep leave on the medicene moved us land years living.</p>
-            
+            fly you're divided deep leave on the medicene moved us land years living.
+            <p className="btn"><a href="!#">JOIN US TODAY</a></p>
+            </p>
+           
         </div>
     )
 }
