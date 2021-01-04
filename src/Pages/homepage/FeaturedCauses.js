@@ -74,7 +74,7 @@ const FeaturedCauses = () => {
       </MDBCol>
 
 
-      <MDBCol md='4'>
+      <MDBCol md='4' style={{paddingBottom:'30px'}}>
         <MDBCard>
           <MDBCardImage
             hover
