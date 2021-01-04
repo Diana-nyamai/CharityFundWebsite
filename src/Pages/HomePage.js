@@ -96,7 +96,7 @@ class Homepage extends React.Component {
 
        {/*featured causes*/}
        <div style={{paddingBottom:'2em'}}>
-       <h1 style={{textAlign:'center'}}>Our Major Causes</h1>
+       <h1 style={{textAlign:'center'}}>Featured Causes</h1>
        <p style={{textAlign:'center'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
        </div>
         </main>
