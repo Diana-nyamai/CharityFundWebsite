@@ -1,13 +1,92 @@
-import React, { Component } from 'react'
+import React from 'react';
+import { MDBBtn, MDBCard, MDBCardBody, MDBCardImage, MDBCardTitle, MDBCardText, MDBRow, MDBCol, MDBView, MDBIcon } from 'mdbreact';
 
-export class FeaturedCauses extends Component {
-    render() {
-        return (
-            <div>
-                
-            </div>
-        )
-    }
+const FeaturedCauses = () => {
+  return (
+    <MDBRow>
+      <MDBCol md='4'>
+        <MDBCard>
+          <MDBCardImage
+            hover
+            overlay='white-light'
+            className='card-img-top'
+            src='https://mdbootstrap.com/img/Photos/Others/men.jpg'
+            alt='man'
+          />
+
+          <MDBCardBody cascade className='text-center'>
+            <MDBCardTitle className='card-title'>
+              <strong>Education for every child</strong>
+            </MDBCardTitle>
+
+           
+
+            <MDBCardText>
+              Sed ut perspiciatis unde omnis iste natus sit voluptatem
+              accusantium doloremque laudantium, totam rem aperiam.{' '}
+            </MDBCardText>
+
+          
+          </MDBCardBody>
+        </MDBCard>
+      </MDBCol>
+
+      <MDBCol md='4'>
+        <MDBCard>
+          <MDBCardImage
+            hover
+            overlay='white-light'
+            className='card-img-top'
+            src='https://mdbootstrap.com/img/Photos/Others/men.jpg'
+            alt='man'
+          />
+
+          <MDBCardBody cascade className='text-center'>
+            <MDBCardTitle className='card-title'>
+              <strong>Feeding the hungry</strong>
+            </MDBCardTitle>
+
+        
+
+            <MDBCardText>
+              Sed ut perspiciatis unde omnis iste natus sit voluptatem
+              accusantium doloremque laudantium, totam rem aperiam.{' '}
+            </MDBCardText>
+
+          
+          </MDBCardBody>
+        </MDBCard>
+      </MDBCol>
+
+
+      <MDBCol md='4'>
+        <MDBCard>
+          <MDBCardImage
+            hover
+            overlay='white-light'
+            className='card-img-top'
+            src='https://mdbootstrap.com/img/Photos/Others/men.jpg'
+            alt='man'
+          />
+
+          <MDBCardBody cascade className='text-center'>
+            <MDBCardTitle className='card-title'>
+              <strong>Providing clothes</strong>
+            </MDBCardTitle>
+
+            
+
+            <MDBCardText>
+              Sed ut perspiciatis unde omnis iste natus sit voluptatem
+              accusantium doloremque laudantium, totam rem aperiam.{' '}
+            </MDBCardText>
+
+          
+          </MDBCardBody>
+        </MDBCard>
+      </MDBCol>
+    </MDBRow>
+  )
 }
 
-export default FeaturedCauses
+export default FeaturedCauses;
