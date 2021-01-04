@@ -103,11 +103,20 @@ class Homepage extends React.Component {
        
        <FeaturedCauses/>
 
+       {/*Upcoming events*/}
        <div style={{paddingBottom:'2em'}}>
-       <h1 style={{textAlign:'center'}}>Featured Causes</h1>
+       <h1 style={{textAlign:'center'}}>Upcoming Events</h1>
        <p style={{textAlign:'center'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
        </div>
       
+
+       {/*Our volunteers */}
+       <div style={{paddingBottom:'2em'}}>
+       <h1 style={{textAlign:'center'}}>Our Volunters</h1>
+       <p style={{textAlign:'center'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+       </div>
+
+       {/* */}
         </main>
       </div>
     );
