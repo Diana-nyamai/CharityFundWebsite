@@ -120,6 +120,7 @@ class Homepage extends React.Component {
        <Volunteers/>
 
        {/* */}
+       <BecomeVolunteer/>
         </main>
       </div>
     );
