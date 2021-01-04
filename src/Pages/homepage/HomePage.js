@@ -6,6 +6,7 @@ import {Animated} from "react-animated-css";
 import FeaturedCauses from './FeaturedCauses';
 import UpcomingEvents from './UpcomingEvents';
 import Volunteers from './Volunteers';
+import BecomeVolunteer from './BecomeVolunteer';
 
 class Homepage extends React.Component {
   constructor(props) {
