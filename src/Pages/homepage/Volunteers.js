@@ -12,7 +12,7 @@ export class Volunteers extends Component {
                 <div className="col-lg-3 col-md-6">
                 <div className="team-item">
                 <div className="team-img">
-                <img className="img-fluid" src="../Images/C1.jpg" alt="C1"/>
+                <img className="img-fluid" src="../Images/sly.jpeg" alt="C1"/>
                 <div className="team-name">
                   <h4>Wairimu</h4>
                   <p>Manager</p>
@@ -27,7 +27,7 @@ export class Volunteers extends Component {
                   <div className="col-lg-3 col-md-6">
                 <div className="team-item">
                 <div className="team-img">
-                <img className="img-fluid" src="../Images/C1.jpg" alt="C1"/>
+                <img className="img-fluid" src="../Images/alex2.png" alt="C1"/>
                 <div className="team-name">
                   <h4>Alex Kamanga</h4>
                   <p>Volunteer</p>
@@ -42,7 +42,7 @@ export class Volunteers extends Component {
                   <div className="col-lg-3 col-md-6">
                 <div className="team-item">
                 <div className="team-img">
-                <img className="img-fluid" src="../Images/C1.jpg" alt="C1"/>
+                <img className="img-fluid" src="../Images/sly.jpeg" alt="C1"/>
                 <div className="team-name">
                   <h4>Sylviah Mwitumi</h4>
                   <p>Volunteer</p>
@@ -57,7 +57,7 @@ export class Volunteers extends Component {
                   <div className="col-lg-3 col-md-6">
                 <div className="team-item">
                 <div className="team-img">
-                <img className="img-fluid" src="../Images/C1.jpg" alt="C1"/>
+                <img className="img-fluid" src="../Images/alex2.png" alt="C1"/>
                 <div className="team-name">
                   <h4>Alex</h4>
                   <p>Volunteer</p>
