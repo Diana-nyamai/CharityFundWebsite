@@ -16,9 +16,8 @@ function App() {
      <Route path="/EventPage" component={EventPage}/>
      <Route path="/ContactPage" component={ContactPage}/>
      <Route path="/AboutPage" component={AboutPage}/>
-     <Footer/>
-     </div>
-   
+    </div>
+    <Footer/>
     </Router>
   );
 }
