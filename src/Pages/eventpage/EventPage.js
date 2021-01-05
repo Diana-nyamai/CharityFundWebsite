@@ -58,7 +58,7 @@ class EventPage extends React.Component {
               <Animated animationIn="bounceInRight"><p>This Year, Show some love by sponsoring meals
               </p><br />    
               </Animated>
-              <p className="btn"><a href="!#">DONATE NOW</a></p>
+              <p className="button"><a href="!#">DONATE NOW</a></p>
               </MDBMask>
           </MDBView>
         </header>
