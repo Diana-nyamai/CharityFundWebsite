@@ -10,7 +10,7 @@ import TwitterIcon from '@material-ui/icons/Twitter';
 
 const Footer= () => {
   return (
-    <MDBFooter color="mdb-color" className="font-small pt-4 mt-4">
+    <MDBFooter color="pink" className="font-small pt-4 mt-4">
       <MDBContainer className="text-center text-md-left">
         <MDBRow className="text-center text-md-left mt-3 pb-3">
           <MDBCol md="3" lg="3" xl="3" className="mx-auto mt-3">
@@ -31,29 +31,29 @@ const Footer= () => {
               Quick links
             </h6>
             <p>
-              <a href="#!">Your Account</a>
+              <a href="/">Home</a>
             </p>
             <p>
-              <a href="#!">Become an Affiliate</a>
+              <a href="/EventPage">Events</a>
             </p>
             <p>
-              <a href="#!">Shipping Rates</a>
+              <a href="/AboutPage">About Us</a>
             </p>
             <p>
-              <a href="#!">Help</a>
+              <a href="/ContactPage">Contact Us</a>
             </p>
           </MDBCol>
           <hr className="w-100 clearfix d-md-none" />
           <MDBCol md="4" lg="3" xl="3" className="mx-auto mt-3">
             <h6 className="text-uppercase mb-4 font-weight-bold">Contact</h6>
             <p>
-              <HomeIcon/> New York, NY 10012, US
+              <HomeIcon/> Amie Foundation, on Kamiti Road, Opposite Jacaranda Gardens
             </p>
             <p>
-              <EmailIcon /> info@gmail.com
+              <EmailIcon /> info@amiefoundation.co.ke
             </p>
             <p>
-              <PhoneIcon/> + 01 234 567 88
+              <PhoneIcon/> +254 706 151 716
             </p>
            
           </MDBCol>
