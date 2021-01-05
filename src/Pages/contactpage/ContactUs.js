@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import { MDBRow, MDBCol, MDBCard, MDBCardBody, MDBIcon, MDBBtn, MDBInput } from "mdbreact";
+import { MDBRow, MDBCol, MDBCard, MDBCardBody, MDBBtn, MDBInput } from "mdbreact";
 import EmailIcon from '@material-ui/icons/Email';
-import PersonIcon from '@material-ui/icons/Person';
-import LocalOfferIcon from '@material-ui/icons/LocalOffer';
+import LocationOnIcon from '@material-ui/icons/LocationOn';
+import PhoneIcon from '@material-ui/icons/Phone';
 
 export class ContactUs extends Component {
     render() {
@@ -69,29 +69,33 @@ export class ContactUs extends Component {
           <br />
           <MDBRow className="text-center">
             <MDBCol md="4">
-              <MDBBtn tag="a" floating color="blue" className="accent-1">
-                <MDBIcon icon="map-marker-alt" />
+              <MDBBtn tag="a" floating color="pink" className="accent-1">
+                <LocationOnIcon />
               </MDBBtn>
-              <p>Nairobi</p>
-              <p className="mb-md-0">Kenya</p>
+              <p>Nairobi, Kenya</p>
+              
             </MDBCol>
             <MDBCol md="4">
-              <MDBBtn tag="a" floating color="blue" className="accent-1">
-                <MDBIcon icon="phone" />
+              <MDBBtn tag="a" floating color="pink" className="accent-1">
+                <PhoneIcon />
               </MDBBtn>
               <p>0101170937</p>
               <p className="mb-md-0">Mon - Fri, 8:00-22:00</p>
             </MDBCol>
             <MDBCol md="4">
-              <MDBBtn tag="a" floating color="blue" className="accent-1">
-                <MDBIcon icon="envelope" />
+              <MDBBtn tag="a" floating color="pink" className="accent-1">
+                <EmailIcon/>
               </MDBBtn>
-              <p>info@gikosh.com</p>
-              <p className="mb-md-0">sale@gikosh.com</p>
+              <p>info@amiefoundation.co.ke</p>
+
             </MDBCol>
           </MDBRow>
         </MDBCol>
       </MDBRow>
+      <div style={{paddingBottom:'2em'}}>
+     
+      
+      </div>
     </section>
         )
     }
