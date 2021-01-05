@@ -72,7 +72,7 @@ export class ContactUs extends Component {
               <MDBBtn tag="a" floating color="pink" className="accent-1">
                 <LocationOnIcon />
               </MDBBtn>
-              <p>Nairobi, Kenya</p>
+              <p>Nairobi, </p>
               
             </MDBCol>
             <MDBCol md="4">
