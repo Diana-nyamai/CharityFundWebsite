@@ -7,6 +7,7 @@ import FeaturedCauses from './FeaturedCauses';
 import UpcomingEvents from './UpcomingEvents';
 import Volunteers from './Volunteers';
 import BecomeVolunteer from './BecomeVolunteer';
+import LatestNews from './LatestNews';
 
 class Homepage extends React.Component {
   constructor(props) {
@@ -55,13 +56,12 @@ class Homepage extends React.Component {
           <MDBView src="https://images.unsplash.com/photo-1459183885421-5cc683b8dbba?ixid=MXwxMjA3fDB8MHxzZWFyY2h8OHx8YmxhY2slMjBjaGFyaXR5fGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">
             <MDBMask overlay="purple-light" className="flex-center flex-column text-white text-center">
             <Animated animationIn="fadeInDownBig">
-              <h2 >GIVE A HAND</h2>
-              <h2>TO MAKE A BETTER WORLD</h2></Animated>
+              <h2 >HEALTHY MEALS </h2>
+              <h2>fOR lOW INCOME EARNERS</h2></Animated>
               <Animated animationIn="bounceInLeft">
-              <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et euismod mauris.</h5></Animated>
-              <Animated  animationIn="bounceInRight"><p>Ut eleifend egestas lorem, sit amet imperdiet augue pulvinar non</p><br /></Animated>
-              <Animated  animationIn="bounceInLeft"><p>Quisque eu odio quis nisi molestie venenatis id eget mi. Proin quam felis, consectetur ac ante ut, </p>
-              </Animated>
+              <h5>Today in Kenya,
+              </h5></Animated>
+              <Animated  animationIn="bounceInRight"><p>Food Security depends on whether households have stable incomes to afford food</p><br /></Animated>
               <p className="btn"><a href="!#">JOIN US TODAY</a></p>
             </MDBMask>
           </MDBView>
@@ -75,25 +75,33 @@ class Homepage extends React.Component {
          <div className="row">
          <div className="col-lg-4 col-md-6">
          <div className="causes"> 
-         <h4>Give Donation</h4>
+         <h4>Donation</h4>
          <img src="../Images/donate.png" alt="donate"/>
-         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et euismod mauris. Ut eleifend egestas lorem, sit amet imperdiet augue pulvinar non.</p>
+         <p>Any support towards getting foodstuffs for the low income homes
+          and individuals is highly welcome.Donate to Amie Foundation
+           through Lipa na MPESA 742676 (Buy Goods/ Services)
+         </p>
          </div>
          </div>
 
          <div className="col-lg-4 col-md-6">
          <div className="causes"> 
-         <h4>Give inspiration</h4>
-         <img src="../Images/inspre.png" alt="donate"/>
-         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et euismod mauris. Ut eleifend egestas lorem, sit amet imperdiet augue pulvinar non.</p>
+         <h4>Partners</h4>
+         <img src="../Images/partner.png" alt="donate"/>
+         <p>Low income households and individuals have many essential needs beyond food that need to be met. 
+         We’re always looking for partners that we can work with to meet them. (Partner with us)
+         </p>
          </div>
          </div>
 
          <div className="col-lg-4 col-md-6">
          <div className="causes"> 
-         <h4>Become a Volunteer</h4>
+         <h4>Volunteer</h4>
          <img src="../Images/volunteer.png" alt="donate"/>
-         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et euismod mauris. Ut eleifend egestas lorem, sit amet imperdiet augue pulvinar non.</p>
+         <p>Amie Foundation brings together diverse skills-sets, 
+         programs and activities to make the vision a reality. 
+         You can volunteer in any of the areas in the website (Volunteer with us)
+         </p>
          </div>
          </div>
  </div>
@@ -115,7 +123,7 @@ class Homepage extends React.Component {
 
        {/*Our volunteers */}
        <div style={{paddingBottom:'2em'}}>
-       <h1 style={{textAlign:'center'}}>Our Volunteers</h1>
+       <h1 style={{textAlign:'center'}}>Meet Our Volunteers</h1>
        <p style={{textAlign:'center'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
        </div>
        <Volunteers/>
@@ -127,6 +135,7 @@ class Homepage extends React.Component {
        <h1 style={{textAlign:'center'}}>Our Latest news</h1>
        <p style={{textAlign:'center'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
        </div>
+       <LatestNews/>
         </main>
       </div>
     );

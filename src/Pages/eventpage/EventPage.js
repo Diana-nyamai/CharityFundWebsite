@@ -51,13 +51,13 @@ class EventPage extends React.Component {
           <MDBView src="https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2hhcml0eXxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=500&q=60">
             <MDBMask overlay="purple-light" className="flex-center flex-column text-white text-center">
             <Animated animationIn="fadeInDownBig">
-              <h2>The Event Page</h2></Animated>
+              <h2> EVENTS</h2></Animated>
               <Animated animationIn="bounceInLeft">
-              <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et euismod mauris.</h5></Animated>
-              <Animated animationIn="bounceInRight"><p>Navbar's background will switch from transparent to solid color while scrolling down</p><br />    
+              <h5>Show some Love 2021
+              </h5></Animated>
+              <Animated animationIn="bounceInRight"><p>This Year, Show some love by sponsoring meals
+              </p><br />    
               </Animated>
-              <Animated animationIn="bounceInLeft">
-              <p>Full page intro with background image will be always displayed in full screen mode, regardless of device </p></Animated>
               <p className="btn"><a href="!#">DONATE NOW</a></p>
               </MDBMask>
           </MDBView>
