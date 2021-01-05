@@ -122,11 +122,6 @@ class Homepage extends React.Component {
 
        {/* become a volunteer*/}
        <BecomeVolunteer/>
-
-       <div style={{paddingBottom:'2em'}}>
-       <h1 style={{textAlign:'center'}}>Our Latest news</h1>
-       <p style={{textAlign:'center'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-       </div>
         </main>
       </div>
     );
