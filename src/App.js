@@ -6,6 +6,7 @@ import EventPage from './Pages/eventpage/EventPage';
 import Homepage from './Pages/homepage/HomePage';
 import ContactPage from './Pages/contactpage/ContactPage';
 import AboutPage from './Pages/aboutpage/AboutPage';
+import Footer from './Navigation/Footer';
 function App() {
   return (
     <Router>
@@ -15,8 +16,8 @@ function App() {
      <Route path="/EventPage" component={EventPage}/>
      <Route path="/ContactPage" component={ContactPage}/>
      <Route path="/AboutPage" component={AboutPage}/>
-    </div>
-    
+     <Footer/></div>
+   
     </Router>
   );
 }
