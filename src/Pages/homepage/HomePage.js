@@ -62,7 +62,7 @@ class Homepage extends React.Component {
               <h5>Today in Kenya,
               </h5></Animated>
               <Animated  animationIn="bounceInRight"><p>Food Security depends on whether households have stable incomes to afford food</p><br /></Animated>
-              <p className="btn"><a href="!#">JOIN US TODAY</a></p>
+              <p className="button"><a href="/ContactPage">JOIN US TODAY</a></p>
             </MDBMask>
           </MDBView>
         </header>
