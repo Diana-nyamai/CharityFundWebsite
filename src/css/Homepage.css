@@ -93,6 +93,9 @@ h4{
 .social .icons{
     padding: 10px 10px;
 }
+.social .icons a{
+   color: #000;
+}
 
 /*becomeVolunteer*/
 .volunteer{
