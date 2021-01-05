@@ -7,7 +7,7 @@ function BecomeVolunteer() {
            
             <p style={{textAlign:'center'}}>So seed seed green that winged cattle in. Gathering thing made 
             fly you're divided deep leave on the medicene moved us land years living.
-            <p className="btn"><a href="!#">JOIN US TODAY</a></p>
+            <p className="button"><a href="/ContactPage">JOIN US TODAY</a></p>
             </p>
            
         </div>
