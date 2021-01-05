@@ -75,7 +75,7 @@ const Footer = () => {
               <a href="https://www.MDBootstrap.com"> MDBootstrap.com </a>
             </p>
           </MDBCol>
-          <MDBCol md="4" lg="4" className="ml-lg-0">
+          <MDBCol md="4" lg="4" className="ml-lg-0" >
             <div className="text-center text-md-right">
               <ul className="list-unstyled list-inline">
                 <li className="list-inline-item">
@@ -89,12 +89,12 @@ const Footer = () => {
                   </a>
                 </li>
                 <li className="list-inline-item">
-                  <a className="btn-floating btn-sm rgba-white-slight mx-1">
+                  <a href="!#" className="btn-floating btn-sm rgba-white-slight mx-1">
                     <i className="fab fa-google-plus" />
                   </a>
                 </li>
                 <li className="list-inline-item">
-                  <a className="btn-floating btn-sm rgba-white-slight mx-1">
+                  <a href="!#" className="btn-floating btn-sm rgba-white-slight mx-1">
                     <i className="fab fa-linkedin-in" />
                   </a>
                 </li>

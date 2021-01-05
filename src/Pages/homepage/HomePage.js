@@ -115,13 +115,18 @@ class Homepage extends React.Component {
 
        {/*Our volunteers */}
        <div style={{paddingBottom:'2em'}}>
-       <h1 style={{textAlign:'center'}}>Our Volunters</h1>
+       <h1 style={{textAlign:'center'}}>Our Volunteers</h1>
        <p style={{textAlign:'center'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
        </div>
        <Volunteers/>
 
-       {/* */}
+       {/* become a volunteer*/}
        <BecomeVolunteer/>
+
+       <div style={{paddingBottom:'2em'}}>
+       <h1 style={{textAlign:'center'}}>Our Latest news</h1>
+       <p style={{textAlign:'center'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+       </div>
         </main>
       </div>
     );
