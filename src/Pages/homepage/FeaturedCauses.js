@@ -26,8 +26,8 @@ const FeaturedCauses = () => {
               accusantium doloremque laudantium, totam rem aperiam.{' '}
             </MDBCardText>
           <div className="d-flex justify-content-between raised_goal">
-          <p>Raised: ksh.10,000</p>
-          <p style={{color:' #e91e63'}}>Goal: ksh.50,000</p>
+          <p>Daily: ksh.30</p>
+          <p style={{color:' #e91e63'}}>Monthly: ksh.900</p>
           </div>
           
           <div className="d-flex justify-content-between donation align-items-center">
@@ -61,8 +61,8 @@ const FeaturedCauses = () => {
             </MDBCardText>
 
             <div className="d-flex justify-content-between raised_goal">
-            <p>Raised: ksh.10,000</p>
-            <p style={{color:' #e91e63'}}>Goal: ksh.50,000</p>
+            <p>Daily: ksh.30</p>
+            <p style={{color:' #e91e63'}}>Monthly: ksh.900</p>
             </div>
 
             <div className="d-flex justify-content-between donation align-items-center">
@@ -97,8 +97,8 @@ const FeaturedCauses = () => {
             </MDBCardText>
 
             <div className="d-flex justify-content-between raised_goal">
-            <p>Raised: ksh.10,000</p>
-            <p style={{color:' #e91e63'}}>Goal: ksh.50,000</p>
+            <p>Daily: ksh.30</p>
+            <p style={{color:' #e91e63'}}>Monthly: ksh.900</p>
             </div>
 
             <div className="d-flex justify-content-between donation align-items-center">
