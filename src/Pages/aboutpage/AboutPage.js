@@ -3,7 +3,7 @@ import { MDBNavbar, MDBNavbarNav, MDBNavbarToggler, MDBCollapse, MDBNavItem, MDB
 import { BrowserRouter as Router } from 'react-router-dom';
 import {Nav,Navbar} from 'react-bootstrap';
 import {Animated} from "react-animated-css";
-import Volunteers from '../homepage/Volunteers';
+import AllVolunteers from './AllVolunteers';
 
 class AboutPage extends React.Component {
   constructor(props) {
@@ -67,7 +67,7 @@ class AboutPage extends React.Component {
        <p style={{textAlign:'center'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
        </div>
 
-       <Volunteers/>
+       <AllVolunteers/>
         </main>
       </div>
     );
