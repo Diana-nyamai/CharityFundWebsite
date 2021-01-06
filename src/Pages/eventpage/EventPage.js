@@ -36,7 +36,7 @@ class EventPage extends React.Component {
                   <MDBNavItem>
                     <Nav.Link href="/">Home</Nav.Link>
                   </MDBNavItem>
-                  <MDBNavItem>
+                  <MDBNavItem active>
                     <Nav.Link href="/EventPage">Events</Nav.Link>
                   </MDBNavItem>
                   <MDBNavItem>
