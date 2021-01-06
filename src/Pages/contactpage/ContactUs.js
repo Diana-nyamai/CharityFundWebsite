@@ -12,7 +12,7 @@ export class ContactUs extends Component {
         <MDBCol lg="5" className="lg-0 mb-4">
           <MDBCard>
             <MDBCardBody>
-              <div className="form-header blue accent-1">
+              <div className="form-header pink accent-2">
                 <h3 className="mt-2">
                   <EmailIcon/> Write to us:
                 </h3>
@@ -51,11 +51,11 @@ export class ContactUs extends Component {
             </MDBCardBody>
           </MDBCard>
         </MDBCol>
-        <MDBCol lg="7">
+        <MDBCol lg="7" >
           <div
             id="map-container"
             className="rounded z-depth-1-half map-container"
-            style={{ height: "400px" }}
+            style={{ height: "400px" ,overflowY:'hidden'}}
           >
           
             <iframe
