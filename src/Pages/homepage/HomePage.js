@@ -44,6 +44,9 @@ class Homepage extends React.Component {
                     <Nav.Link href="/EventPage">Events</Nav.Link>
                   </MDBNavItem>
                   <MDBNavItem>
+                  <Nav.Link href="/StoriesUntold">Stories Untold</Nav.Link>
+                </MDBNavItem>
+                  <MDBNavItem>
                     <Nav.Link href="/AboutPage">About Us</Nav.Link>
                   </MDBNavItem>
                   <MDBNavItem>

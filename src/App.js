@@ -7,6 +7,7 @@ import Homepage from './Pages/homepage/HomePage';
 import ContactPage from './Pages/contactpage/ContactPage';
 import AboutPage from './Pages/aboutpage/AboutPage';
 import Footer from './Navigation/Footer';
+import StoriesUntold from './Pages/storiesUntold/StoriesUntold';
 function App() {
   return (
     <Router>
@@ -14,8 +15,10 @@ function App() {
     
      <Route exact path="/" component={Homepage}/>
      <Route path="/EventPage" component={EventPage}/>
+     <Route path="/StoriesUntold" component={StoriesUntold}/>
      <Route path="/ContactPage" component={ContactPage}/>
      <Route path="/AboutPage" component={AboutPage}/>
+     
     </div>
     <Footer/>
     </Router>

@@ -5,7 +5,7 @@ import {Nav,Navbar} from 'react-bootstrap';
 import {Animated} from "react-animated-css";
 import AllVolunteers from './AllVolunteers';
 
-class AboutPage extends React.Component {
+class StoriesUntold extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -77,4 +77,4 @@ class AboutPage extends React.Component {
   }
 }
 
-export default AboutPage;
+export default StoriesUntold;
