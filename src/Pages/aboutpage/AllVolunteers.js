@@ -33,7 +33,7 @@ export class AllVolunteers extends Component {
                 <div className="team-name">
                   <h4>Liwali Kivumanyuki</h4>
                   <p>Volunteer</p>
-                  <p className="mt-20">An entrepreneur that loves volunteering with Amie on management and strategic plans </p>
+                  <p className="mt-20">An entrepreneur that loves volunteering with Amie on management and strategic plans<br/></p>
                   <div className="social">
                   <i className="icons"><a href="https://www.facebook.com/liwali.kivumanyuki/"><FacebookIcon/></a></i>
                   <i className="icons"><InstagramIcon/></i>

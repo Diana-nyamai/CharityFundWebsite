@@ -72,6 +72,7 @@ h4{
     margin-bottom: 20px;
     padding: 20px;
     
+    
 }
 .team-item:hover{
     box-shadow: 0px 20px 30px rgba(153, 153, 153, 0.2);
@@ -86,6 +87,10 @@ h4{
 .team-item .social{
     margin-top: 20px;
     padding: 10px 20px;
+}
+.team-name{
+    height: max-content;
+    
 }
 .social:hover{
     cursor: pointer;
