@@ -2,6 +2,7 @@ import React from 'react';
 import { MDBNavbar, MDBNavbarNav, MDBNavbarToggler, MDBCollapse, MDBNavItem, MDBContainer, MDBMask, MDBView } from 'mdbreact';
 import { BrowserRouter as Router } from 'react-router-dom';
 import {Nav,Navbar} from 'react-bootstrap';
+import {Animated} from "react-animated-css";
 
 class AboutPage extends React.Component {
   constructor(props) {
@@ -49,7 +50,7 @@ class AboutPage extends React.Component {
           </Router>
           <MDBView src="https://images.unsplash.com/photo-1504159506876-f8338247a14a?ixid=MXwxMjA3fDB8MHxzZWFyY2h8M3x8YmxhY2slMjBjaGFyaXR5fGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">
             <MDBMask overlay="purple-light" className="flex-center flex-column text-white text-center">
-              <h2 style={{fontSize:'100px'}}>About Us</h2>
+            <Animated animationIn="fadeInDownBig"> <h2 style={{fontSize:'100px'}}>About Us</h2></Animated>
               
             </MDBMask>
           </MDBView>
