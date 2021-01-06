@@ -80,7 +80,7 @@ export class ContactUs extends Component {
               <MDBBtn tag="a" floating color="pink" className="accent-1">
                 <PhoneIcon />
               </MDBBtn>
-              <p>0101170937</p>
+              <p>+254 706 151 716</p>
               <p className="mb-md-0">Mon - Fri, 8:00-22:00</p>
             </MDBCol>
             <MDBCol md="4">
