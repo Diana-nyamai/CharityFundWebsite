@@ -123,7 +123,7 @@ class Homepage extends React.Component {
 
        {/*Our volunteers */}
        <div style={{paddingBottom:'2em'}}>
-       <h1 style={{textAlign:'center'}}>Meet Our Volunteers</h1>
+       <h1 style={{textAlign:'center'}}>Meet Our Volunteers and Team</h1>
        <p style={{textAlign:'center'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
        </div>
        <Volunteers/>

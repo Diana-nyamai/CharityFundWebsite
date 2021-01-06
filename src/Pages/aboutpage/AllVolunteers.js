@@ -15,7 +15,7 @@ export class AllVolunteers extends Component {
                 <img className="img-fluid" src="../Images/wairimu.jpeg" alt="C1"/>
                 <div className="team-name">
                   <h4>Wairimu</h4>
-                  <p>Manager</p>
+                  <p>Founder, Manager</p>
                   <p className="mt-20">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                   <div className="social">
                   <i className="icons"><FacebookIcon/></i>
@@ -68,6 +68,22 @@ export class AllVolunteers extends Component {
                   <i className="icons"><a href="!#"><LinkedInIcon/></a></i>
                   <i className="icons"><a href="!#"><TwitterIcon/></a></i>
                   </div> </div> </div></div></div>
+
+
+                   <div className="col-lg-3 col-md-6">
+                    <div className="team-item">
+                    <div className="team-img">
+                    <img className="img-fluid" src="../Images/diana.png" alt="C1"/>
+                    <div className="team-name">
+                      <h4>Diana Nyamai</h4>
+                      <p>Tech</p>
+                      <p className="mt-20">A budding software developer who puts her time with Amie in technological design and maintenance</p>
+                      <div className="social">
+                      <i className="icons"><a href="!#"><FacebookIcon/></a></i>
+                      <i className="icons"><a href="!#"><InstagramIcon/></a></i>
+                      <i className="icons"><a href="!#"><LinkedInIcon/></a></i>
+                      <i className="icons"><a href="!#"><TwitterIcon/></a></i>
+                      </div> </div> </div></div></div>
             </div>
         )
     }
