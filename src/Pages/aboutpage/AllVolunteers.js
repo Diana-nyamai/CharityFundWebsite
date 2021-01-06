@@ -14,9 +14,11 @@ export class AllVolunteers extends Component {
                 <div className="team-img">
                 <img className="img-fluid" src="../Images/wairimu.jpeg" alt="C1"/>
                 <div className="team-name">
-                  <h4>Wairimu</h4>
+                  <h4>Wairimu Ngungu</h4>
                   <p>Founder, Manager</p>
-                  <p className="mt-20">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                  <p className="mt-20">As the Founder and the first volunteer at Amie,
+                   Wairimu holds multiple qualifications in aviation and finance.
+                   Empowering communities is her heart beat.</p>
                   <div className="social">
                   <i className="icons"><FacebookIcon/></i>
                   <i className="icons"><InstagramIcon/></i>
@@ -29,9 +31,9 @@ export class AllVolunteers extends Component {
                 <div className="team-img">
                 <img className="img-fluid" src="../Images/alex.png" alt="C1"/>
                 <div className="team-name">
-                  <h4>Alex Kamanga</h4>
+                  <h4>Liwali Kivumanyuki</h4>
                   <p>Volunteer</p>
-                  <p className="mt-20">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                  <p className="mt-20">An entrepreneur that loves volunteering with Amie on management and strategic plans </p>
                   <div className="social">
                   <i className="icons"><a href="https://www.facebook.com/liwali.kivumanyuki/"><FacebookIcon/></a></i>
                   <i className="icons"><InstagramIcon/></i>
@@ -44,9 +46,10 @@ export class AllVolunteers extends Component {
                 <div className="team-img">
                 <img className="img-fluid" src="../Images/sly.png" alt="C1"/>
                 <div className="team-name">
-                  <h4>Sylviah Mwitumi</h4>
+                  <h4>Sylviah Wambui</h4>
                   <p>Volunteer</p>
-                  <p className="mt-20">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                  <p className="mt-20">A Legal and Criminology expert who has a passion for building 
+                  solutions that make the lives of people better.</p>
                   <div className="social">
                   <i className="icons"><FacebookIcon/></i>
                   <i className="icons"><InstagramIcon/></i>
@@ -61,7 +64,7 @@ export class AllVolunteers extends Component {
                 <div className="team-name">
                   <h4>Lillian Wachira</h4>
                   <p>Volunteer</p>
-                  <p className="mt-20">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                  <p className="mt-20">An enthusiastic girl who loves baking and cherishes every joyful moment with others.</p>
                   <div className="social">
                   <i className="icons"><a href="!#"><FacebookIcon/></a></i>
                   <i className="icons"><a href="!#"><InstagramIcon/></a></i>
