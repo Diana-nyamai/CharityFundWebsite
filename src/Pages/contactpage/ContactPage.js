@@ -33,7 +33,7 @@ class ContactPage extends React.Component {
               {!this.state.isWideEnough && <MDBNavbarToggler onClick={this.onClick} />}
               <MDBCollapse isOpen={this.state.collapse} navbar>
                 <MDBNavbarNav right>
-                  <MDBNavItem active>
+                  <MDBNavItem >
                     <Nav.Link href="/">Home</Nav.Link>
                   </MDBNavItem>
                   <MDBNavItem>
@@ -42,7 +42,7 @@ class ContactPage extends React.Component {
                   <MDBNavItem>
                     <Nav.Link href="/AboutPage">About Us</Nav.Link>
                   </MDBNavItem>
-                  <MDBNavItem>
+                  <MDBNavItem active>
                     <Nav.Link href="/ContactPage">Contact Us</Nav.Link>
                   </MDBNavItem>
                 </MDBNavbarNav>
@@ -60,6 +60,7 @@ class ContactPage extends React.Component {
         <main>
          <ContactUs/>
         </main>
+        
       </div>
     );
   }

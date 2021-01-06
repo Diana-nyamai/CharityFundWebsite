@@ -33,13 +33,13 @@ class AboutPage extends React.Component {
               {!this.state.isWideEnough && <MDBNavbarToggler onClick={this.onClick} />}
               <MDBCollapse isOpen={this.state.collapse} navbar>
                 <MDBNavbarNav right>
-                  <MDBNavItem active>
+                  <MDBNavItem>
                     <Nav.Link href="/">Home</Nav.Link>
                   </MDBNavItem>
                   <MDBNavItem>
                     <Nav.Link href="/EventPage">Events</Nav.Link>
                   </MDBNavItem>
-                  <MDBNavItem>
+                  <MDBNavItem active>
                     <Nav.Link href="/AboutPage">About Us</Nav.Link>
                   </MDBNavItem>
                   <MDBNavItem>
