@@ -51,9 +51,8 @@ class NavBar extends React.Component {
         </header>
 
      
-      </div>
-    );
+
+   
   }
 }
 
-export default NavBar;
