@@ -82,10 +82,10 @@ export class AllVolunteers extends Component {
                       <p>Tech</p>
                       <p className="mt-20">A budding software developer who puts her time with Amie in technological design and maintenance</p>
                       <div className="social">
-                      <i className="icons"><a href="!#"><FacebookIcon/></a></i>
-                      <i className="icons"><a href="!#"><InstagramIcon/></a></i>
-                      <i className="icons"><a href="!#"><LinkedInIcon/></a></i>
-                      <i className="icons"><a href="!#"><TwitterIcon/></a></i>
+                      <i className="icons"><a href="https://www.facebook.com/diana.nyamai.5/"><FacebookIcon/></a></i>
+                      <i className="icons"><a href="https://www.instagram.com/ndinda_diana/"><InstagramIcon/></a></i>
+                      <i className="icons"><a href="https://www.linkedin.com/in/diana-nyamai-41694815a/"><LinkedInIcon/></a></i>
+                      <i className="icons"><a href="https://twitter.com/nyamai_diana"><TwitterIcon/></a></i>
                       </div> </div> </div></div></div>
             </div>
         )
