@@ -68,16 +68,7 @@ const Footer= () => {
           <MDBCol md="4" lg="4" className="ml-lg-0">
             <div className="text-center text-md-right">
               <ul className="list-unstyled list-inline">
-                <li className="list-inline-item">
-                  <a  href="!#" >
-                    <TwitterIcon />
-                  </a>
-                </li>
-                <li className="list-inline-item">
-                  <a  href="!#" >
-                    <FacebookIcon/>
-                  </a>
-                </li>
+               
                 <li className="list-inline-item">
                 <a  href="!#" >
                   <YouTubeIcon/>
