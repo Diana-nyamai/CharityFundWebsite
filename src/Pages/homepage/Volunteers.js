@@ -15,7 +15,7 @@ export class Volunteers extends Component {
                 <img className="img-fluid" src="../Images/wairimu.jpeg" alt="C1"/>
                 <div className="team-name">
                   <h4>Wairimu Ngungu</h4>
-                  <p>Manager</p>
+                  <p>Founder, Manager</p>
                   <p className="mt-20">As the Founder and the first volunteer at Amie, 
                   Wairimu holds multiple qualifications in aviation and finance. 
                   Empowering communities is her heart beat.</p>
