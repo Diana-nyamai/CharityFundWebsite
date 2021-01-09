@@ -3,7 +3,6 @@ import { MDBNavbar, MDBNavbarNav, MDBNavbarToggler, MDBCollapse, MDBNavItem, MDB
 import { BrowserRouter as Router } from 'react-router-dom';
 import {Nav,Navbar} from 'react-bootstrap';
 import {Animated} from "react-animated-css";
-import FeaturedCauses from './FeaturedCauses';
 import UpcomingEvents from './UpcomingEvents';
 import Volunteers from './Volunteers';
 import BecomeVolunteer from './BecomeVolunteer';
@@ -109,13 +108,6 @@ class Homepage extends React.Component {
          </div>
  </div>
 
-       {/*featured causes*/}
-      <div style={{paddingBottom:'2em'}}>
-       <h1 style={{textAlign:'center'}}>Featured Causes</h1>
-       <p style={{textAlign:'center'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-       </div>
-       
-       <FeaturedCauses/>
 
        {/*Upcoming events*/}
        <div style={{paddingBottom:'2em'}}>
