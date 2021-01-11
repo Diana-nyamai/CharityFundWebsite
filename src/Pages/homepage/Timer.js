@@ -5,11 +5,19 @@ export class Timer extends Component {
       days: 300,
       hour: 20,
       min: 30,
-      sec: 4
+      sec: 0
    }
 
    componentDidMount() {
-       
+       this.myInterval = setInternal(() =>{
+           const { sec, min } = this.state
+
+           if( sec > 0){
+               this.setState(({sec}) => ({
+                   sec: sec - 1
+               }))
+           }
+       })
    }
 
     render() {
