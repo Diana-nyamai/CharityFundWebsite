@@ -1,7 +1,17 @@
 import React, { Component } from 'react'
 
 export class Timer extends Component {
-    
+   state = {
+      days: 300,
+      hour: 20,
+      min: 30,
+      sec: 4
+   }
+
+   componentDidMount() {
+       
+   }
+
     render() {
         return (
             <div className="d-flex count_time" id="clockdiv1">
@@ -10,7 +20,7 @@ export class Timer extends Component {
                 <p>Days </p>
                 </div>
 
-                <div className="Days" >
+                <div className="Days">
                 <h4 class="days">16</h4>
                 <p>Hours</p>
                 </div>
