@@ -69,6 +69,8 @@ class Homepage extends React.Component {
           </MDBView>
         </header>
 
+
+        {/*main content*/}
         <main>
         <div style={{paddingBottom:'2em'}}>
          <h1 style={{textAlign:'center'}}>Our Major Causes</h1>
