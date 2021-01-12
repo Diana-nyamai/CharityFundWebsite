@@ -59,6 +59,7 @@ class Homepage extends React.Component {
           </Router>
 
           <Carousel>
+          <Carousel.Item interval={2000}>
           <MDBView src="https://images.unsplash.com/photo-1459183885421-5cc683b8dbba?ixid=MXwxMjA3fDB8MHxzZWFyY2h8OHx8YmxhY2slMjBjaGFyaXR5fGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">
             <MDBMask overlay="purple-light" className="flex-center flex-column text-white text-center">
             <Animated animationIn="fadeInDownBig">
@@ -70,7 +71,39 @@ class Homepage extends React.Component {
               <Animated  animationIn="bounceInRight"><p>Food Security depends on whether households have stable incomes to afford food</p><br /></Animated>
               <p className="button"><a href="https://docs.google.com/forms/d/e/1FAIpQLScElLmk-MuBzgNdWiY2LCdJ8W_kGeaseegRp4xT_GGGFRtylQ/viewform?usp=pp_url">JOIN US TODAY</a></p>
             </MDBMask>
-          </MDBView></Carousel>
+          </MDBView></Carousel.Item>
+          
+          <Carousel.Item interval={2000}>
+          <MDBView src="https://images.unsplash.com/photo-1459183885421-5cc683b8dbba?ixid=MXwxMjA3fDB8MHxzZWFyY2h8OHx8YmxhY2slMjBjaGFyaXR5fGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">
+            <MDBMask overlay="purple-light" className="flex-center flex-column text-white text-center">
+            <Animated animationIn="fadeInDownBig">
+              <h2 style={{fontSize:'70px'}}>HEALTHY MEALS </h2>
+              <h2 style={{fontSize:'70'}}>fOR lOW INCOME EARNERS</h2></Animated>
+              <Animated animationIn="bounceInLeft">
+              <h5>Today in Kenya,
+              </h5></Animated>
+              <Animated  animationIn="bounceInRight"><p>Food Security depends on whether households have stable incomes to afford food</p><br /></Animated>
+              <p className="button"><a href="https://docs.google.com/forms/d/e/1FAIpQLScElLmk-MuBzgNdWiY2LCdJ8W_kGeaseegRp4xT_GGGFRtylQ/viewform?usp=pp_url">JOIN US TODAY</a></p>
+            </MDBMask>
+          </MDBView></Carousel.Item>
+
+          <Carousel.Item interval={2000}>
+          <MDBView src="https://images.unsplash.com/photo-1459183885421-5cc683b8dbba?ixid=MXwxMjA3fDB8MHxzZWFyY2h8OHx8YmxhY2slMjBjaGFyaXR5fGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">
+            <MDBMask overlay="purple-light" className="flex-center flex-column text-white text-center">
+            <Animated animationIn="fadeInDownBig">
+              <h2 style={{fontSize:'70px'}}>HEALTHY MEALS </h2>
+              <h2 style={{fontSize:'70'}}>fOR lOW INCOME EARNERS</h2></Animated>
+              <Animated animationIn="bounceInLeft">
+              <h5>Today in Kenya,
+              </h5></Animated>
+              <Animated  animationIn="bounceInRight"><p>Food Security depends on whether households have stable incomes to afford food</p><br /></Animated>
+              <p className="button"><a href="https://docs.google.com/forms/d/e/1FAIpQLScElLmk-MuBzgNdWiY2LCdJ8W_kGeaseegRp4xT_GGGFRtylQ/viewform?usp=pp_url">JOIN US TODAY</a></p>
+            </MDBMask>
+          </MDBView></Carousel.Item>
+          
+          </Carousel>
+
+          
         </header>
 
 
