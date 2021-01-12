@@ -60,7 +60,7 @@ class Homepage extends React.Component {
 
           <Carousel>
           <Carousel.Item interval={2000}>
-          <MDBView src="https://images.unsplash.com/photo-1459183885421-5cc683b8dbba?ixid=MXwxMjA3fDB8MHxzZWFyY2h8OHx8YmxhY2slMjBjaGFyaXR5fGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">
+          <MDBView src="../Images/food1.jpeg">
             <MDBMask overlay="purple-light" className="flex-center flex-column text-white text-center">
             <Animated animationIn="fadeInDownBig">
               <h2 style={{fontSize:'70px'}}>HEALTHY MEALS </h2>
@@ -74,7 +74,7 @@ class Homepage extends React.Component {
           </MDBView></Carousel.Item>
           
           <Carousel.Item interval={2000}>
-          <MDBView src="https://images.unsplash.com/photo-1459183885421-5cc683b8dbba?ixid=MXwxMjA3fDB8MHxzZWFyY2h8OHx8YmxhY2slMjBjaGFyaXR5fGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">
+          <MDBView src="../Images/food2.jpeg">
             <MDBMask overlay="purple-light" className="flex-center flex-column text-white text-center">
             <Animated animationIn="fadeInDownBig">
               <h2 style={{fontSize:'70px'}}>HEALTHY MEALS </h2>
@@ -88,7 +88,7 @@ class Homepage extends React.Component {
           </MDBView></Carousel.Item>
 
           <Carousel.Item interval={2000}>
-          <MDBView src="https://images.unsplash.com/photo-1459183885421-5cc683b8dbba?ixid=MXwxMjA3fDB8MHxzZWFyY2h8OHx8YmxhY2slMjBjaGFyaXR5fGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">
+          <MDBView src="../Images/food3j.jpeg">
             <MDBMask overlay="purple-light" className="flex-center flex-column text-white text-center">
             <Animated animationIn="fadeInDownBig">
               <h2 style={{fontSize:'70px'}}>HEALTHY MEALS </h2>
