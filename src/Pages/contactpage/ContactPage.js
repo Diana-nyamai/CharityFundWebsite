@@ -52,7 +52,7 @@ class ContactPage extends React.Component {
               </MDBCollapse>
             </MDBNavbar>
           </Router>
-          <MDBView src="https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8Y2hhcml0eXxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=500&q=60">
+          <MDBView src="../Images/contactus.jpeg">
             <MDBMask overlay="purple-light" className="flex-center flex-column text-white text-center">
             <Animated animationIn="fadeInDownBig"> <h2 style={{fontSize:'100px'}}>contact Us</h2></Animated>
               

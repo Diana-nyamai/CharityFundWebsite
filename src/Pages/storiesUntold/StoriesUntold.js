@@ -52,7 +52,7 @@ class StoriesUntold extends React.Component {
               </MDBCollapse>
             </MDBNavbar>
           </Router>
-          <MDBView src="https://images.unsplash.com/photo-1504159506876-f8338247a14a?ixid=MXwxMjA3fDB8MHxzZWFyY2h8M3x8YmxhY2slMjBjaGFyaXR5fGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">
+          <MDBView src="../Images/untoldstory.png">
             <MDBMask overlay="purple-light" className="flex-center flex-column text-white text-center">
             <Animated animationIn="fadeInDownBig"> <h2 style={{fontSize:'100px'}}>STORIES UNTOLD</h2></Animated>
               
