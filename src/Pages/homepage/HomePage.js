@@ -1,9 +1,11 @@
 import React from 'react';
 import { MDBNavbar, MDBNavbarNav, MDBNavbarToggler, MDBCollapse, MDBNavItem, MDBMask, MDBView } from 'mdbreact';
 import { BrowserRouter as Router } from 'react-router-dom';
+import {Carousel} from 'react-bootstrap';
 import {Nav,Navbar} from 'react-bootstrap';
 import {Animated} from "react-animated-css";
 import UpcomingEvents from './UpcomingEvents';
+
 import Volunteers from './Volunteers';
 import BecomeVolunteer from './BecomeVolunteer';
 import LatestNews from './LatestNews';
@@ -55,6 +57,8 @@ class Homepage extends React.Component {
               </MDBCollapse>
             </MDBNavbar>
           </Router>
+
+          <Carousel>
           <MDBView src="https://images.unsplash.com/photo-1459183885421-5cc683b8dbba?ixid=MXwxMjA3fDB8MHxzZWFyY2h8OHx8YmxhY2slMjBjaGFyaXR5fGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">
             <MDBMask overlay="purple-light" className="flex-center flex-column text-white text-center">
             <Animated animationIn="fadeInDownBig">
@@ -66,7 +70,7 @@ class Homepage extends React.Component {
               <Animated  animationIn="bounceInRight"><p>Food Security depends on whether households have stable incomes to afford food</p><br /></Animated>
               <p className="button"><a href="https://docs.google.com/forms/d/e/1FAIpQLScElLmk-MuBzgNdWiY2LCdJ8W_kGeaseegRp4xT_GGGFRtylQ/viewform?usp=pp_url">JOIN US TODAY</a></p>
             </MDBMask>
-          </MDBView>
+          </MDBView></Carousel>
         </header>
 
 
