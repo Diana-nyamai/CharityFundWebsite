@@ -14,12 +14,12 @@ const Footer= () => {
         <MDBRow className="text-center text-md-left mt-3 pb-3">
           <MDBCol md="3" lg="3" xl="3" className="mx-auto mt-3">
             <h6 className="text-uppercase mb-4 font-weight-bold">
-              Our Mission
+              Our Purpose
             </h6>
             <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-             Vestibulum et euismod mauris. Ut eleifend egestas lorem, 
-            sit amet imperdiet augue pulvinar non. Quisque eu odio quis nisi molestie venenatis id eget mi.
+            Amie Foundation exists to inspire happy homes-homes where families have enough to eat. 
+             We believe that by pursuing SDG 2 (Zero Hunger),  
+            we can over time find other solutions that improve the quality of low income earners' lives
             </p>
           </MDBCol>
           <hr className="w-100 clearfix d-md-none" />

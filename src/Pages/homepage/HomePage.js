@@ -88,7 +88,7 @@ class Homepage extends React.Component {
           </MDBView></Carousel.Item>
 
           <Carousel.Item interval={2000}>
-          <MDBView src="../Images/food3j.jpeg">
+          <MDBView src="../Images/food3.jpeg">
             <MDBMask overlay="purple-light" className="flex-center flex-column text-white text-center">
             <Animated animationIn="fadeInDownBig">
               <h2 style={{fontSize:'70px'}}>HEALTHY MEALS </h2>
