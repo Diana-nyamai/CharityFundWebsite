@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import Timer from './Timer'
+
 
 
 export class UpcomingEvents extends Component {
@@ -18,8 +18,8 @@ export class UpcomingEvents extends Component {
                 </div>
                 <div className="col-lg-6 col-md-6" >
                 <div className="content_wrapper">
-                <h4> January 2021 - Show some Love 2021</h4>
-                <p>
+                <h4> January 2021 </h4>
+                <p>Show some Love 2021
 This Year, Show some love by sponsoring meals.
 
 <b> Ksh. 30 per adult daily </b> or
@@ -27,7 +27,7 @@ This Year, Show some love by sponsoring meals.
            
 Ksh 30 per child daily or
 Ksh 900 per child monthly</p>
-                <Timer/>
+                
                 </div></div></div></div></div>
 
                 <div className="col-lg-6">
@@ -43,15 +43,9 @@ Ksh 900 per child monthly</p>
                 <div className="col-lg-6 col-md-6">
                 <div className="content_wrapper">
                 <h4> february 2021</h4>
-                <p>Show some Love 2021
-This Year, Show some love by sponsoring meals
-
-<b> Kshs. 30 per adult daily </b> or
-Ksh 900 per adult monthly 
-           
-Ksh 30 per child daily or
-Ksh 900 per child monthly</p>
-                <Timer/>
+                <p>Be part of our community outreach. Join us as we identify and 
+                collaborate with partners that serve different needs in low income areas</p>
+                
                 </div></div></div></div></div>
 
                 <div className="col-lg-6">
@@ -66,16 +60,9 @@ Ksh 900 per child monthly</p>
                 </div>
                 <div className="col-lg-6 col-md-6">
                 <div className="content_wrapper">
-                <h4> march 2021</h4>
-                <p>Show some Love 2021
-This Year, Show some love by sponsoring meals 
-
-<b>Kshs. 30 per adult daily </b> or
-Ksh 900 per adult monthly 
-           
-Ksh 30 per child daily or
-Ksh 900 per child monthly</p>
-                <Timer/>
+                <h4> march 2021 - Sponsor a Skill</h4>
+                <p> This month,  you can sponsor a skill or volunteer to teach a useful skill</p>
+                
                 </div></div></div></div></div>
 
                 <div className="col-lg-6">
@@ -91,15 +78,9 @@ Ksh 900 per child monthly</p>
                 <div className="col-lg-6 col-md-6">
                 <div className="content_wrapper">
                 <h4> April 2021</h4>
-                <p>Show some Love 2021
-This Year, Show some love by sponsoring meals
-
-<b>Kshs. 30 per adult daily </b> or
-Ksh 900 per adult monthly 
-           
-Ksh 30 per child daily or
-Ksh 900 per child monthly</p>
-                <Timer/>
+                <p>Volunteer to teach Trade skills.  This month,  you can sponsor or volunteer to 
+                teach useful business skills to owners of small businesses in low income areas</p>
+                
                 </div></div></div></div></div>
             </div>
         )
