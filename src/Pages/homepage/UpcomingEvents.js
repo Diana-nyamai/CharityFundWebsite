@@ -12,7 +12,8 @@ export class UpcomingEvents extends Component {
                 <div className="col-lg-6 col-md-6">
                 <figure>
                 
-                <div className="img-overlay" style={{borderRadius:'5px'}}><img className="img-fluid w-100" src="../Images/event.jpeg" alt="event"/></div>
+                <div className="img-overlay" style={{borderRadius:'5px'}}>
+                <img className="img-fluid w-100" src="../Images/event1.jpeg" alt="event"/></div>
                 </figure>
                 </div>
                 <div className="col-lg-6 col-md-6" >
@@ -35,7 +36,8 @@ Ksh 900 per child monthly</p>
                 <div className="col-lg-6 col-md-6">
                 <figure>
                 
-                <div className="img-overlay" style={{borderRadius:'5px'}}><img className="img-fluid w-100" src="../Images/C1.jpg" alt="event"/></div>
+                <div className="img-overlay" style={{borderRadius:'5px'}}>
+                <img className="img-fluid w-100" src="../Images/event2.jpeg" alt="event"/></div>
                 </figure>
                 </div>
                 <div className="col-lg-6 col-md-6">
@@ -58,14 +60,15 @@ Ksh 900 per child monthly</p>
                 <div className="col-lg-6 col-md-6">
                 <figure>
                 
-                <div className="img-overlay" style={{borderRadius:'5px'}}><img className="img-fluid w-100" src="../Images/C1.jpg" alt="event"/></div>
+                <div className="img-overlay" style={{borderRadius:'5px'}}>
+                <img className="img-fluid w-100" src="../Images/event3.jpeg" alt="event"/></div>
                 </figure>
                 </div>
                 <div className="col-lg-6 col-md-6">
                 <div className="content_wrapper">
                 <h4> march 2021</h4>
                 <p>Show some Love 2021
-This Year, Show some love by sponsoring meals
+This Year, Show some love by sponsoring meals 
 
 Kshs. 30 per adult daily or
 Ksh 900 per adult monthly 
@@ -81,7 +84,8 @@ Ksh 900 per child monthly</p>
                 <div className="col-lg-6 col-md-6">
                 <figure>
                 
-                <div className="img-overlay" style={{borderRadius:'5px'}}><img className="img-fluid w-100" src="../Images/C1.jpg" alt="event"/></div>
+                <div className="img-overlay" style={{borderRadius:'5px'}}>
+                <img className="img-fluid w-100" src="../Images/event4.jpeg" alt="event"/></div>
                 </figure>
                 </div>
                 <div className="col-lg-6 col-md-6">
