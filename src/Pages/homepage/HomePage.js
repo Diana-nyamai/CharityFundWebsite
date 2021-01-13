@@ -111,7 +111,7 @@ class Homepage extends React.Component {
         <main>
         <div style={{paddingBottom:'2em'}}>
          <h1 style={{textAlign:'center'}}>Our Major Causes</h1>
-         <p style={{textAlign:'center'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+         <p style={{textAlign:'center'}}>What we major on</p>
          </div>
          <div className="row">
          <div className="col-lg-4 col-md-6">
@@ -151,14 +151,14 @@ class Homepage extends React.Component {
        {/*Upcoming events*/}
        <div style={{paddingBottom:'2em'}}>
        <h1 style={{textAlign:'center'}}>Upcoming Events</h1>
-       <p style={{textAlign:'center'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+       <p style={{textAlign:'center'}}>Show your support in our events by donating</p>
        </div>
       <UpcomingEvents/>
 
        {/*Our volunteers */}
        <div style={{paddingBottom:'2em'}}>
        <h1 style={{textAlign:'center'}}>Meet Our Volunteers and Team</h1>
-       <p style={{textAlign:'center'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+       <p style={{textAlign:'center'}}>The members participated in the success of the Foundation</p>
        </div>
        <Volunteers/>
 

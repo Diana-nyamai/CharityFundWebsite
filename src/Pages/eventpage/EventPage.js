@@ -72,7 +72,7 @@ class EventPage extends React.Component {
 
           <div style={{paddingBottom:'2em'}}>
        <h1 style={{textAlign:'center'}}>Upcoming Events</h1>
-       <p style={{textAlign:'center'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+       <p style={{textAlign:'center'}}>Show your support in our events by donating</p>
        </div>
           <UpcomingEvents/>
         </main>
