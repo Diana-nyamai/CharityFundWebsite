@@ -28,7 +28,7 @@ class ContactPage extends React.Component {
           <Router>
             <MDBNavbar color="pink" fixed="top" dark expand="md" scrolling transparent>
               <Navbar.Brand href="/">
-                <strong>LOGO</strong>
+              <img src="../Images/logo.png" alt="logo"/>
               </Navbar.Brand>
               {!this.state.isWideEnough && <MDBNavbarToggler onClick={this.onClick} />}
               <MDBCollapse isOpen={this.state.collapse} navbar>
