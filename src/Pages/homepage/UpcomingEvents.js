@@ -12,14 +12,20 @@ export class UpcomingEvents extends Component {
                 <div className="col-lg-6 col-md-6">
                 <figure>
                 
-                <div className="img-overlay"><img className="img-fluid w-100" src="../Images/C1.jpg" alt="event"/></div>
+                <div className="img-overlay" style={{borderRadius:'5px'}}><img className="img-fluid w-100" src="../Images/event.jpeg" alt="event"/></div>
                 </figure>
                 </div>
                 <div className="col-lg-6 col-md-6" >
                 <div className="content_wrapper">
-                <h4> Help and homelessness</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et euismod mauris. 
-                Ut eleifend egestas lorem, sit amet imperdiet</p>
+                <h4> January 2021</h4>
+                <p>Show some Love 2021
+This Year, Show some love by sponsoring meals
+
+Kshs. 30 per adult daily or
+Ksh 900 per adult monthly 
+           
+Ksh 30 per child daily or
+Ksh 900 per child monthly</p>
                 <Timer/>
                 </div></div></div></div></div>
 
@@ -29,14 +35,20 @@ export class UpcomingEvents extends Component {
                 <div className="col-lg-6 col-md-6">
                 <figure>
                 
-                <div className="img-overlay"><img className="img-fluid w-100" src="../Images/C1.jpg" alt="event"/></div>
+                <div className="img-overlay" style={{borderRadius:'5px'}}><img className="img-fluid w-100" src="../Images/C1.jpg" alt="event"/></div>
                 </figure>
                 </div>
                 <div className="col-lg-6 col-md-6">
                 <div className="content_wrapper">
-                <h4> Help and homelessness</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et euismod mauris. 
-                Ut eleifend egestas lorem, sit amet imperdiet</p>
+                <h4> february 2021</h4>
+                <p>Show some Love 2021
+This Year, Show some love by sponsoring meals
+
+Kshs. 30 per adult daily or
+Ksh 900 per adult monthly 
+           
+Ksh 30 per child daily or
+Ksh 900 per child monthly</p>
                 <Timer/>
                 </div></div></div></div></div>
 
@@ -46,14 +58,20 @@ export class UpcomingEvents extends Component {
                 <div className="col-lg-6 col-md-6">
                 <figure>
                 
-                <div className="img-overlay"><img className="img-fluid w-100" src="../Images/C1.jpg" alt="event"/></div>
+                <div className="img-overlay" style={{borderRadius:'5px'}}><img className="img-fluid w-100" src="../Images/C1.jpg" alt="event"/></div>
                 </figure>
                 </div>
                 <div className="col-lg-6 col-md-6">
                 <div className="content_wrapper">
-                <h4> Help and homelessness</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et euismod mauris. 
-                Ut eleifend egestas lorem, sit amet imperdiet</p>
+                <h4> march 2021</h4>
+                <p>Show some Love 2021
+This Year, Show some love by sponsoring meals
+
+Kshs. 30 per adult daily or
+Ksh 900 per adult monthly 
+           
+Ksh 30 per child daily or
+Ksh 900 per child monthly</p>
                 <Timer/>
                 </div></div></div></div></div>
 
@@ -63,14 +81,20 @@ export class UpcomingEvents extends Component {
                 <div className="col-lg-6 col-md-6">
                 <figure>
                 
-                <div className="img-overlay"><img className="img-fluid w-100" src="../Images/C1.jpg" alt="event"/></div>
+                <div className="img-overlay" style={{borderRadius:'5px'}}><img className="img-fluid w-100" src="../Images/C1.jpg" alt="event"/></div>
                 </figure>
                 </div>
                 <div className="col-lg-6 col-md-6">
                 <div className="content_wrapper">
-                <h4> Help and homelessness</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et euismod mauris. 
-                Ut eleifend egestas lorem, sit amet imperdiet</p>
+                <h4> April 2021</h4>
+                <p>Show some Love 2021
+This Year, Show some love by sponsoring meals
+
+Kshs. 30 per adult daily or
+Ksh 900 per adult monthly 
+           
+Ksh 30 per child daily or
+Ksh 900 per child monthly</p>
                 <Timer/>
                 </div></div></div></div></div>
             </div>
