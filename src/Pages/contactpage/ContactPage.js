@@ -43,7 +43,7 @@ class ContactPage extends React.Component {
                   <Nav.Link href="/StoriesUntold">Stories Untold</Nav.Link>
                 </MDBNavItem>
                   <MDBNavItem>
-                    <Nav.Link href="/AboutPage">About Us</Nav.Link>
+                    <Nav.Link href="/AboutPage">About Amie</Nav.Link>
                   </MDBNavItem>
                   <MDBNavItem active>
                     <Nav.Link href="/ContactPage">Contact Us</Nav.Link>
