@@ -18,12 +18,12 @@ export class UpcomingEvents extends Component {
                 </div>
                 <div className="col-lg-6 col-md-6" >
                 <div className="content_wrapper">
-                <h4> January 2021</h4>
-                <p>Show some Love 2021
-This Year, Show some love by sponsoring meals
+                <h4> January 2021 - Show some Love 2021</h4>
+                <p>
+This Year, Show some love by sponsoring meals.
 
-Kshs. 30 per adult daily or
-Ksh 900 per adult monthly 
+<b> Ksh. 30 per adult daily </b> or
+<b> Ksh 900 per adult monthly </b>
            
 Ksh 30 per child daily or
 Ksh 900 per child monthly</p>
@@ -46,7 +46,7 @@ Ksh 900 per child monthly</p>
                 <p>Show some Love 2021
 This Year, Show some love by sponsoring meals
 
-Kshs. 30 per adult daily or
+<b> Kshs. 30 per adult daily </b> or
 Ksh 900 per adult monthly 
            
 Ksh 30 per child daily or
@@ -61,7 +61,7 @@ Ksh 900 per child monthly</p>
                 <figure>
                 
                 <div className="img-overlay" style={{borderRadius:'5px'}}>
-                <img className="img-fluid w-100" src="../Images/event3.jpeg" alt="event"/></div>
+                <img className="img-fluid w-100" src="../Images/event3.png" alt="event"/></div>
                 </figure>
                 </div>
                 <div className="col-lg-6 col-md-6">
@@ -70,7 +70,7 @@ Ksh 900 per child monthly</p>
                 <p>Show some Love 2021
 This Year, Show some love by sponsoring meals 
 
-Kshs. 30 per adult daily or
+<b>Kshs. 30 per adult daily </b> or
 Ksh 900 per adult monthly 
            
 Ksh 30 per child daily or
@@ -94,7 +94,7 @@ Ksh 900 per child monthly</p>
                 <p>Show some Love 2021
 This Year, Show some love by sponsoring meals
 
-Kshs. 30 per adult daily or
+<b>Kshs. 30 per adult daily </b> or
 Ksh 900 per adult monthly 
            
 Ksh 30 per child daily or
