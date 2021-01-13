@@ -60,7 +60,7 @@ class Homepage extends React.Component {
 
           <Carousel>
           <Carousel.Item interval={2000}>
-          <MDBView src="../Images/food1.jpeg">
+          <MDBView src="../Images/landing1.jpeg">
             <MDBMask overlay="purple-light" className="flex-center flex-column text-white text-center">
             <Animated animationIn="fadeInDownBig">
               <h2 style={{fontSize:'70px'}}>HEALTHY MEALS </h2>
@@ -74,7 +74,7 @@ class Homepage extends React.Component {
           </MDBView></Carousel.Item>
           
           <Carousel.Item interval={2000}>
-          <MDBView src="../Images/food2.jpeg">
+          <MDBView src="../Images/landing2.jpeg">
             <MDBMask overlay="purple-light" className="flex-center flex-column text-white text-center">
             <Animated animationIn="fadeInDownBig">
               <h2 style={{fontSize:'70px'}}>HEALTHY MEALS </h2>
@@ -88,7 +88,7 @@ class Homepage extends React.Component {
           </MDBView></Carousel.Item>
 
           <Carousel.Item interval={2000}>
-          <MDBView src="../Images/food3.jpeg">
+          <MDBView src="../Images/landing3.jpeg">
             <MDBMask overlay="purple-light" className="flex-center flex-column text-white text-center">
             <Animated animationIn="fadeInDownBig">
               <h2 style={{fontSize:'70px'}}>HEALTHY MEALS </h2>
