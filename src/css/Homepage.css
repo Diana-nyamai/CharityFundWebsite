@@ -117,4 +117,13 @@ h4{
     padding: 20px;
     border-radius: 4px;
     background-color: #fff;
+    
+}
+.blog-item-wrapper:hover{
+  box-shadow: 0px 20px 30px rgba(153, 153, 153, 0.2);
+}
+.date{
+    font-size: 14px;
+    color: #546E7A;
+    padding: 5px;
 }
