@@ -86,7 +86,7 @@ class AboutPage extends React.Component {
 
           <div style={{paddingBottom:'2em'}}>
        <h1 style={{textAlign:'center'}}>Meet Our Volunteers and Team</h1>
-       <p style={{textAlign:'center'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+       <p style={{textAlign:'center'}}>The members participated in the success of the Foundation</p>
        </div>
 
        <AllVolunteers/>
