@@ -65,12 +65,13 @@ class AboutPage extends React.Component {
               <div className="row align-items-center justify-content-center">
               <div className="col-lg-6 col-md-8 col-sm-10">
               <div className="condition-left"> 
-              <img className="img-fluid" style={{marginTop:'80px'}} src="../Images/C1.jpg"  alt="about"/>
+              <img className="img-fluid" style={{marginTop:'80px'}} src="../Images/aboutus.jpeg"  alt="about"/>
               </div>
               </div>
               <div className="offset-lg-1 col-lg-5">
               <div className="condition-right">
-                <p align="justify">Translated, Amie means a female friend. 
+              <h2>About Amie</h2>
+                <p align="justify" style={{fontSize:'20px', color:'black'}}>Translated, Amie means a female friend. 
             Our Foundation exists to be a friend to the vulnerable of all 
             kinds in our Kenyan society today. Our programs aim to improve the quality 
             of people’s lives. Hunger is the problem we’re tackling for a start. With time, 
