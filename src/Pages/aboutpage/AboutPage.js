@@ -54,7 +54,7 @@ class AboutPage extends React.Component {
           </Router>
           <MDBView src="https://images.unsplash.com/photo-1504159506876-f8338247a14a?ixid=MXwxMjA3fDB8MHxzZWFyY2h8M3x8YmxhY2slMjBjaGFyaXR5fGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">
             <MDBMask overlay="purple-light" className="flex-center flex-column text-white text-center">
-            <Animated animationIn="fadeInDownBig"> <h2 style={{fontSize:'100px'}}>About Us</h2></Animated>
+            <Animated animationIn="fadeInDownBig"> <h2 style={{fontSize:'100px'}}>About Amie</h2></Animated>
               
             </MDBMask>
           </MDBView>
@@ -62,7 +62,11 @@ class AboutPage extends React.Component {
 
         <main>
           <MDBContainer className="text-center my-5">
-            <p align="justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p align="justify" style={{fontSize:'25px'}}>Translated, Amie means a female friend. 
+            Our Foundation exists to be a friend to the vulnerable of all 
+            kinds in our Kenyan society today. Our programs aim to improve the quality 
+            of people’s lives. Hunger is the problem we’re tackling for a start. With time, 
+            we hope to solve more problems for Kenya’s low income earners.</p>
           </MDBContainer>
 
           <div style={{paddingBottom:'2em'}}>
