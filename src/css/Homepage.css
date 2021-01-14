@@ -111,3 +111,10 @@ h4{
     color: #fff;
     overflow-y: hidden;
 }
+
+/*latest news*/
+.blog-item-wrapper{
+    padding: 20px;
+    border-radius: 4px;
+    background-color: #fff;
+}
