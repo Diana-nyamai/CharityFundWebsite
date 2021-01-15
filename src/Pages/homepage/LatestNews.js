@@ -38,7 +38,7 @@ function LatestNews() {
         Phasellus at nibh efficitur, vulputate sapien vehicula, iaculis lorem
         </a></p>
         <div className="date">
-         <AccessTimeIcon/> 5 mins read
+         <AccessTimeIcon/> 3 mins read
         </div></div></div> </div>
 
         <div className="col-lg-4 col-md-6 col-xs-12 blog-item">
@@ -56,7 +56,7 @@ function LatestNews() {
         Phasellus at nibh efficitur, vulputate sapien vehicula, iaculis lorem
         </a></p>
         <div className="date">
-         <AccessTimeIcon/> 5 mins read
+         <AccessTimeIcon/> 4 mins read
         </div></div></div> </div>
 
         
