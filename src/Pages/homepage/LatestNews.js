@@ -32,7 +32,7 @@ function LatestNews() {
       </div>
       <div className="blog-item-text">
       <div className="date">
-        <TodayIcon/> january 15, 2021
+        <TodayIcon/> february 15, 2021
       </div>
         <p><a href="!#"  style={{color:'black'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit
         Phasellus at nibh efficitur, vulputate sapien vehicula, iaculis lorem
@@ -50,7 +50,7 @@ function LatestNews() {
       </div>
       <div className="blog-item-text">
       <div className="date">
-        <TodayIcon/> january 15, 2021
+        <TodayIcon/> march 15, 2021
       </div>
         <p><a href="!#"  style={{color:'black'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit
         Phasellus at nibh efficitur, vulputate sapien vehicula, iaculis lorem
