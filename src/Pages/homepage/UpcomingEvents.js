@@ -42,7 +42,7 @@ Ksh 900 per child monthly</p>
                 </div>
                 <div className="col-lg-6 col-md-6">
                 <div className="content_wrapper">
-                <h4> february 2021</h4>
+                <h4> February 2021</h4>
                 <p>Be part of our community outreach. Join us as we identify and 
                 collaborate with partners that serve different needs in low income areas</p>
                 
@@ -60,7 +60,7 @@ Ksh 900 per child monthly</p>
                 </div>
                 <div className="col-lg-6 col-md-6">
                 <div className="content_wrapper">
-                <h4> march 2021 - Sponsor a Skill</h4>
+                <h4> March 2021 - Sponsor a Skill</h4>
                 <p> This month,  you can sponsor a skill or volunteer to teach a useful skill</p>
                 
                 </div></div></div></div></div>
