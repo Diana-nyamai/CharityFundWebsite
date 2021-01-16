@@ -1,0 +1,130 @@
+h1{
+    font-size: 80px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+    color: #000;
+    padding-top: 3em;
+}
+h2{
+    font-size: 80px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+}
+h4{
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+    color: #000;
+}
+.button a{
+    background: #e91e63;
+    color: #fff;
+    display: inline-block;
+    padding: 20px 30px;
+    font-size: 15px;
+    margin-top: 10px;
+    font-family: poppins;
+}
+.button a:hover{
+    color: #fff;
+}
+
+/* causes */
+.causes{
+    margin: 20px 20px 20px 20px;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    background: #fdf1f3;
+    transition: all 300ms linear 0s;
+}
+.causes:hover{
+    box-shadow: 0px 20px 30px rgba(153, 153, 153, 0.2);
+}
+.causes h4{
+    margin-bottom: 30px;
+}
+.causes img{
+    margin-bottom: 30px;
+}
+
+/*timer*/
+.Days{
+    padding: 10px 10px;
+}
+.event{
+    border-radius: 5px;
+    padding: 15px;
+    
+}
+.event:hover{
+    box-shadow: 0px 20px 30px rgba(153, 153, 153, 0.2);
+    cursor: pointer;
+}
+.img-overlay img{
+ border: 10px;
+}
+
+/*volunteers*/
+.team-item{
+    position: relative;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 20px;
+    
+    
+}
+.team-item:hover{
+    box-shadow: 0px 20px 30px rgba(153, 153, 153, 0.2);
+}
+.team-img{
+    border-radius: 5px;
+}
+.team-item .team-name{
+    text-align: center;
+    padding: 20px;
+}
+.team-item .social{
+    margin-top: 20px;
+    padding: 10px 20px;
+}
+.team-name{
+    height: max-content;
+    
+}
+.social:hover{
+    cursor: pointer;
+}
+.social .icons{
+    padding: 10px 10px;
+}
+.social .icons a{
+   color: #000;
+}
+
+/*becomeVolunteer*/
+.volunteer{
+    padding:100px;
+    width:100%;
+    height: auto;
+    background: #e96893;
+    color: #fff;
+    overflow-y: hidden;
+}
+
+/*latest news*/
+.blog-item-wrapper{
+    padding: 20px;
+    border-radius: 4px;
+    background-color: #fff;
+    
+}
+.blog-item-wrapper:hover{
+  box-shadow: 0px 20px 30px rgba(153, 153, 153, 0.2);
+  transition: transform 0.2s linear, box-shadow 0.2s linear;
+}
+.date{
+    font-size: 14px;
+    color: #546E7A;
+    padding: 5px;
+}
