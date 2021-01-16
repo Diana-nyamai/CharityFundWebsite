@@ -64,7 +64,7 @@ class Homepage extends React.Component {
             <MDBMask overlay="purple-light" className="flex-center flex-column text-white text-center">
             <Animated animationIn="fadeInDownBig">
               <h2 style={{fontSize:'70px'}}>HEALTHY MEALS </h2>
-              <h2 style={{fontSize:'70'}}>fOR lOW INCOME EARNERS</h2></Animated>
+              <h2 style={{fontSize:'70'}}>FOR lOW INCOME EARNERS</h2></Animated>
               <Animated animationIn="bounceInLeft">
               <h5>Today in Kenya,
               </h5></Animated>
@@ -78,7 +78,7 @@ class Homepage extends React.Component {
             <MDBMask overlay="purple-light" className="flex-center flex-column text-white text-center">
             <Animated animationIn="fadeInDownBig">
               <h2 style={{fontSize:'70px'}}>HEALTHY MEALS </h2>
-              <h2 style={{fontSize:'70'}}>fOR lOW INCOME EARNERS</h2></Animated>
+              <h2 style={{fontSize:'70'}}>FOR lOW INCOME EARNERS</h2></Animated>
               <Animated animationIn="bounceInLeft">
               <h5>Today in Kenya,
               </h5></Animated>
@@ -92,7 +92,7 @@ class Homepage extends React.Component {
             <MDBMask overlay="purple-light" className="flex-center flex-column text-white text-center">
             <Animated animationIn="fadeInDownBig">
               <h2 style={{fontSize:'70px'}}>HEALTHY MEALS </h2>
-              <h2 style={{fontSize:'70'}}>fOR lOW INCOME EARNERS</h2></Animated>
+              <h2 style={{fontSize:'70'}}>FOR lOW INCOME EARNERS</h2></Animated>
               <Animated animationIn="bounceInLeft">
               <h5>Today in Kenya,
               </h5></Animated>
