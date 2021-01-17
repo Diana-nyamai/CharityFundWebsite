@@ -36,15 +36,17 @@ class AboutPage extends React.Component {
                   <MDBNavItem>
                     <Nav.Link href="/">Home</Nav.Link>
                   </MDBNavItem>
-                  <MDBNavItem>
-                    <Nav.Link href="/EventPage">Events</Nav.Link>
-                  </MDBNavItem>
+                   <MDBNavItem active>
+                    <Nav.Link href="/AboutPage">About Amie</Nav.Link>
+                  </MDBNavItem> 
                   <MDBNavItem>
                   <Nav.Link href="/StoriesUntold">Stories Untold</Nav.Link>
                 </MDBNavItem>
-                  <MDBNavItem active>
-                    <Nav.Link href="/AboutPage">About Amie</Nav.Link>
+                  <MDBNavItem>
+                    <Nav.Link href="/EventPage">Events</Nav.Link>
                   </MDBNavItem>
+                 
+                 
                   <MDBNavItem>
                     <Nav.Link href="/ContactPage">Contact Us</Nav.Link>
                   </MDBNavItem>
