@@ -42,14 +42,16 @@ class Homepage extends React.Component {
                     <Nav.Link href="/">Home</Nav.Link>
                   </MDBNavItem>
                   <MDBNavItem>
-                    <Nav.Link href="/EventPage">Events</Nav.Link>
-                  </MDBNavItem>
-                  <MDBNavItem>
+                    <Nav.Link href="/AboutPage">About Amie</Nav.Link>
+                  </MDBNavItem> 
+                   <MDBNavItem>
                   <Nav.Link href="/StoriesUntold">Stories Untold</Nav.Link>
                 </MDBNavItem>
                   <MDBNavItem>
-                    <Nav.Link href="/AboutPage">About Amie</Nav.Link>
+                    <Nav.Link href="/EventPage">Events</Nav.Link>
                   </MDBNavItem>
+                
+                  
                   <MDBNavItem>
                     <Nav.Link href="/ContactPage">Contact Us</Nav.Link>
                   </MDBNavItem>
