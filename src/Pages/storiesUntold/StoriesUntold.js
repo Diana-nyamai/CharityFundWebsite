@@ -1,5 +1,5 @@
 import React from 'react';
-import { MDBNavbar, MDBNavbarNav, MDBNavbarToggler, MDBCollapse, MDBNavItem, MDBContainer, MDBMask, MDBView } from 'mdbreact';
+import { MDBNavbar, MDBNavbarNav, MDBNavbarToggler, MDBCollapse, MDBNavItem, MDBMask, MDBView } from 'mdbreact';
 import { BrowserRouter as Router } from 'react-router-dom';
 import {Nav,Navbar} from 'react-bootstrap';
 import {Animated} from "react-animated-css";
@@ -62,6 +62,10 @@ class StoriesUntold extends React.Component {
         </header>
 
         <main>
+        <div style={{paddingBottom:'2em'}}>
+        <h1 style={{textAlign:'center'}}>Our Latest News</h1>
+        <p style={{textAlign:'center'}}>Love reading?take a look at our latest blogs feeds</p>
+        </div>
           <LatestNews/> 
         </main>
       </div>

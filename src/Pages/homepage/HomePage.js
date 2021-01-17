@@ -50,8 +50,6 @@ class Homepage extends React.Component {
                   <MDBNavItem>
                     <Nav.Link href="/EventPage">Events</Nav.Link>
                   </MDBNavItem>
-                
-                  
                   <MDBNavItem>
                     <Nav.Link href="/ContactPage">Contact Us</Nav.Link>
                   </MDBNavItem>
@@ -170,7 +168,7 @@ class Homepage extends React.Component {
 
        {/*Our latest News*/}
        <div style={{paddingBottom:'2em'}}>
-       <h1 style={{textAlign:'center'}}>Our Latest news</h1>
+       <h1 style={{textAlign:'center'}}>Our Latest News</h1>
        <p style={{textAlign:'center'}}>Love reading?take a look at our latest blogs feeds</p>
        </div>
        <LatestNews/>
