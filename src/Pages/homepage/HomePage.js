@@ -59,7 +59,7 @@ class Homepage extends React.Component {
           </Router>
 
           <Carousel>
-          <Carousel.Item interval={2000}>
+          <Carousel.Item interval={3000}>
           <MDBView src="../Images/landing1.jpeg">
             <MDBMask overlay="purple-light" className="flex-center flex-column text-white text-center">
             <Animated animationIn="fadeInDownBig">
@@ -73,7 +73,7 @@ class Homepage extends React.Component {
             </MDBMask>
           </MDBView></Carousel.Item>
           
-          <Carousel.Item interval={2000}>
+          <Carousel.Item interval={3000}>
           <MDBView src="../Images/landing2.jpeg">
             <MDBMask overlay="purple-light" className="flex-center flex-column text-white text-center">
             <Animated animationIn="fadeInDownBig">
@@ -87,7 +87,7 @@ class Homepage extends React.Component {
             </MDBMask>
           </MDBView></Carousel.Item>
 
-          <Carousel.Item interval={2000}>
+          <Carousel.Item interval={3000}>
           <MDBView src="../Images/landing3.jpeg">
             <MDBMask overlay="purple-light" className="flex-center flex-column text-white text-center">
             <Animated animationIn="fadeInDownBig">
