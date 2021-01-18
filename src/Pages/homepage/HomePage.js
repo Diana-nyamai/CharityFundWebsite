@@ -68,7 +68,7 @@ class Homepage extends React.Component {
               <Animated animationIn="bounceInLeft">
               <h5>Today in Kenya,
               </h5></Animated>
-              <Animated  animationIn="bounceInRight"><p>Food Security depends on whether households have stable incomes to afford food</p><br /></Animated>
+              <Animated  animationIn="bounceInRight"><p>Food security depends on whether households have stable incomes to afford food</p><br /></Animated>
               <p className="button"><a href="https://docs.google.com/forms/d/e/1FAIpQLScElLmk-MuBzgNdWiY2LCdJ8W_kGeaseegRp4xT_GGGFRtylQ/viewform?usp=pp_url">JOIN US TODAY</a></p>
             </MDBMask>
           </MDBView></Carousel.Item>
@@ -82,7 +82,7 @@ class Homepage extends React.Component {
               <Animated animationIn="bounceInLeft">
               <h5>Today in Kenya,
               </h5></Animated>
-              <Animated  animationIn="bounceInRight"><p>Food Security depends on whether households have stable incomes to afford food</p><br /></Animated>
+              <Animated  animationIn="bounceInRight"><p>Food security depends on whether households have stable incomes to afford food</p><br /></Animated>
               <p className="button"><a href="https://docs.google.com/forms/d/e/1FAIpQLScElLmk-MuBzgNdWiY2LCdJ8W_kGeaseegRp4xT_GGGFRtylQ/viewform?usp=pp_url">JOIN US TODAY</a></p>
             </MDBMask>
           </MDBView></Carousel.Item>
@@ -96,7 +96,7 @@ class Homepage extends React.Component {
               <Animated animationIn="bounceInLeft">
               <h5>Today in Kenya,
               </h5></Animated>
-              <Animated  animationIn="bounceInRight"><p>Food Security depends on whether households have stable incomes to afford food</p><br /></Animated>
+              <Animated  animationIn="bounceInRight"><p>Food security depends on whether households have stable incomes to afford food</p><br /></Animated>
               <p className="button"><a href="https://docs.google.com/forms/d/e/1FAIpQLScElLmk-MuBzgNdWiY2LCdJ8W_kGeaseegRp4xT_GGGFRtylQ/viewform?usp=pp_url">JOIN US TODAY</a></p>
             </MDBMask>
           </MDBView></Carousel.Item>
