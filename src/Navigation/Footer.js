@@ -13,7 +13,7 @@ const Footer= () => {
       <MDBContainer className="text-center text-md-left">
         <MDBRow className="text-center text-md-left mt-3 pb-3">
           <MDBCol md="3" lg="3" xl="3" className="mx-auto mt-3">
-            <h6 className="text-uppercase mb-4 font-weight-bold">
+            <h6 className="text-uppercase font-weight-bold">
               Our Purpose
             </h6>
             <p>
@@ -26,7 +26,7 @@ const Footer= () => {
          
           <hr className="w-100 clearfix d-md-none" />
           <MDBCol md="3" lg="2" xl="2" className="mx-auto mt-3">
-            <h6 className="text-uppercase mb-4 font-weight-bold">
+            <h6 className="text-uppercase font-weight-bold">
               Quick links
             </h6>
             <p>
@@ -44,7 +44,7 @@ const Footer= () => {
           </MDBCol>
           <hr className="w-100 clearfix d-md-none" />
           <MDBCol md="4" lg="3" xl="3" className="mx-auto mt-3">
-            <h6 className="text-uppercase mb-4 font-weight-bold">Contact</h6>
+            <h6 className="text-uppercase font-weight-bold">Contact</h6>
             <p>
               <HomeIcon/> Amie Foundation, on Kamiti Road, Opposite Jacaranda Gardens
             </p>
