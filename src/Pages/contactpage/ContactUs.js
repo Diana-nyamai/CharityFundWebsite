@@ -57,14 +57,22 @@ export class ContactUs extends Component {
             className="rounded z-depth-1-half map-container"
             style={{ height: "400px" ,overflowY:'hidden'}}
           >
-          
+          <iframe 
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.9575200112636!2d36.88923741475379!3d-1.1902003991318628!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMcKwMTEnMjQuNyJTIDM2wrA1MycyOS4xIkU!5e0!3m2!1sen!2ske!4v1611049571432!5m2!1sen!2ske" 
+          width="600" 
+          height="450"
+           frameborder="0" 
+           style="border:0;" 
+           allowfullscreen=""
+            aria-hidden="false" tabindex="0"></iframe>
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3988.9560916697674!2d36.896390413932465!3d-1.1911874858637939!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sKamiti%20Road%2C%20Opposite%20Jacaranda%20Gardens!5e0!3m2!1sen!2ske!4v1609875000948!5m2!1sen!2ske"
-              title="This is a unique title"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.9575200112636!2d36.88923741475379!3d-1.1902003991318628!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMcKwMTEnMjQuNyJTIDM2wrA1MycyOS4xIkU!5e0!3m2!1sen!2ske!4v1611049571432!5m2!1sen!2ske"
+              title="Amie Foundation location"
               width="100%"
               height="100%"
               frameBorder="0"
               style={{ border: 0 }}
+              aria-hidden="false" tabindex="0"
             />
           </div>
           <br />
