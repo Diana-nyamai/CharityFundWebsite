@@ -1,5 +1,6 @@
 import React from "react";
 import { MDBCol, MDBContainer, MDBRow, MDBFooter } from "mdbreact";
+import {BrowserRouter as Router ,Link} from 'react-router-dom';
 import HomeIcon from '@material-ui/icons/Home';
 import EmailIcon from '@material-ui/icons/Email';
 import PhoneIcon from '@material-ui/icons/Phone';
@@ -9,6 +10,7 @@ import YouTubeIcon from '@material-ui/icons/YouTube';
 
 const Footer= () => {
   return (
+    <Router>
     <MDBFooter color="pink" className="font-small pt-4 mt-4">
       <MDBContainer className="text-center text-md-left">
         <MDBRow className="text-center text-md-left mt-3 pb-3">
@@ -33,7 +35,7 @@ const Footer= () => {
               <a href="/">Home</a>
             </p>
             <p>
-              <a href="/EventPage">Events</a>
+              <Link to="/EventPage">Events</Link>
             </p>
             <p>
               <a href="/AboutPage">About Us</a>
@@ -85,7 +87,7 @@ const Footer= () => {
           </MDBCol>
         </MDBRow>
       </MDBContainer>
-    </MDBFooter>
+    </MDBFooter></Router>
   );
 }
 
