@@ -42,7 +42,7 @@ class Homepage extends React.Component {
                   </MDBNavItem>
                   <MDBNavItem>
                     <Nav.Link href="/AboutPage">About Amie</Nav.Link>
-                    
+                      
                   </MDBNavItem> 
                    <MDBNavItem>
                   <Nav.Link href="/StoriesUntold">Stories Untold</Nav.Link>
