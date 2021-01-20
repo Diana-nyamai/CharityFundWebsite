@@ -5,7 +5,6 @@ import {Carousel} from 'react-bootstrap';
 import {Nav,Navbar} from 'react-bootstrap';
 import {Animated} from "react-animated-css";
 import UpcomingEvents from './UpcomingEvents';
-
 import Volunteers from './Volunteers';
 import BecomeVolunteer from './BecomeVolunteer';
 import LatestNews from './LatestNews';
@@ -109,7 +108,7 @@ class Homepage extends React.Component {
 
         {/*main content*/}
         <main>
-        <div style={{paddingBottom:'2em'}}>
+        <div style={{paddingBottom:'1em'}}>
          <h1 style={{textAlign:'center'}}>Our Major Causes</h1>
          <p style={{textAlign:'center'}}>What we major on</p>
          </div>
@@ -150,14 +149,14 @@ class Homepage extends React.Component {
 
 
        {/*Upcoming events*/}
-       <div style={{paddingBottom:'2em'}}>
+       <div style={{paddingBottom:'1em'}}>
        <h1 style={{textAlign:'center'}}>Upcoming Events</h1>
        <p style={{textAlign:'center'}}>Show your support in our events by donating</p>
        </div>
       <UpcomingEvents/>
 
        {/*Our volunteers */}
-       <div style={{paddingBottom:'2em'}}>
+       <div style={{paddingBottom:'1em'}}>
        <h1 style={{textAlign:'center'}}>Meet Our Volunteers and Team</h1>
        <p style={{textAlign:'center'}}>The members participated in the success of the Foundation</p>
        </div>
@@ -167,7 +166,7 @@ class Homepage extends React.Component {
        <BecomeVolunteer/>
 
        {/*Our latest News*/}
-       <div style={{paddingBottom:'2em'}}>
+       <div style={{paddingBottom:'1em'}}>
        <h1 style={{textAlign:'center'}}>Stories Untold</h1>
        <p style={{textAlign:'center'}}>Love reading?take a look at our latest blogs feeds</p>
        </div>
