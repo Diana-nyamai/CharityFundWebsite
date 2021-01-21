@@ -64,8 +64,8 @@ class Homepage extends React.Component {
           <MDBView src="../Images/landing1.jpeg">
             <MDBMask overlay="purple-light" className="flex-center flex-column text-white text-center">
             <Animated animationIn="fadeInDownBig">
-              <h2 style={{fontSize:'70px'}}>HEALTHY MEALS </h2>
-              <h2 style={{fontSize:'70'}}>FOR lOW INCOME EARNERS</h2></Animated>
+              <h2 className="head1" style={{fontSize:'70px'}}>HEALTHY MEALS </h2>
+              <h2 className="head2" style={{fontSize:'70'}}>FOR lOW INCOME EARNERS</h2></Animated>
               <Animated animationIn="bounceInLeft">
               <h5 style={{overflowY:'hidden'}}>Today in Kenya,
               </h5></Animated>
@@ -78,8 +78,8 @@ class Homepage extends React.Component {
           <MDBView src="../Images/landing2.jpeg">
             <MDBMask overlay="purple-light" className="flex-center flex-column text-white text-center">
             <Animated animationIn="fadeInDownBig">
-              <h2 style={{fontSize:'70px'}}>HEALTHY MEALS </h2>
-              <h2 style={{fontSize:'70'}}>FOR lOW INCOME EARNERS</h2></Animated>
+              <h2 className="head1" style={{fontSize:'70px'}}>HEALTHY MEALS </h2>
+              <h2 className="head2" style={{fontSize:'70'}}>FOR lOW INCOME EARNERS</h2></Animated>
               <Animated animationIn="bounceInLeft">
               <h5 style={{overflowY:'hidden'}}>Today in Kenya,
               </h5></Animated>
@@ -92,8 +92,8 @@ class Homepage extends React.Component {
           <MDBView src="../Images/landing3.jpeg">
             <MDBMask overlay="purple-light" className="flex-center flex-column text-white text-center">
             <Animated animationIn="fadeInDownBig">
-              <h2 style={{fontSize:'70px'}}>HEALTHY MEALS </h2>
-              <h2 style={{fontSize:'70'}}>FOR lOW INCOME EARNERS</h2></Animated>
+              <h2 className="head1" style={{fontSize:'70px'}} >HEALTHY MEALS </h2>
+              <h2 className="head2" style={{fontSize:'70'}}>FOR lOW INCOME EARNERS</h2></Animated>
               <Animated animationIn="bounceInLeft">
               <h5 style={{overflowY:'hidden'}}>Today in Kenya,
               </h5></Animated>
