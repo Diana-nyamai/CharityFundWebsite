@@ -1,12 +1,12 @@
 h1{
-    font-size: 80px;
+    font-size: 50px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     letter-spacing: 2px;
     color: #000;
-    padding-top: 3em;
+    padding-top: 1em;
 }
 h2{
-    font-size: 80px;
+    font-size: 50px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     letter-spacing: 2px;
 }
@@ -104,9 +104,8 @@ h4{
 
 /*becomeVolunteer*/
 .volunteer{
-    padding:100px;
-    width:100%;
-    height: auto;
+    padding:600px,200px;
+    height: 400px;
     background: #e96893;
     color: #fff;
     overflow-y: hidden;

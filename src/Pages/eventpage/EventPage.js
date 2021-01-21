@@ -36,14 +36,14 @@ class EventPage extends React.Component {
                   <MDBNavItem>
                     <Nav.Link href="/">Home</Nav.Link>
                   </MDBNavItem>
-                  <MDBNavItem active>
-                    <Nav.Link href="/EventPage">Events</Nav.Link>
-                  </MDBNavItem>
-                  <MDBNavItem>
+                   <MDBNavItem>
+                    <Nav.Link href="/AboutPage">About Amie</Nav.Link>
+                  </MDBNavItem> 
+                   <MDBNavItem>
                   <Nav.Link href="/StoriesUntold">Stories Untold</Nav.Link>
                 </MDBNavItem>
-                  <MDBNavItem>
-                    <Nav.Link href="/AboutPage">About Amie</Nav.Link>
+                  <MDBNavItem active>
+                    <Nav.Link href="/EventPage">Events</Nav.Link>
                   </MDBNavItem>
                   <MDBNavItem>
                     <Nav.Link href="/ContactPage">Contact Us</Nav.Link>
@@ -57,9 +57,9 @@ class EventPage extends React.Component {
             <Animated animationIn="fadeInDownBig">
               <h2 style={{fontSize:'100px'}}> EVENTS</h2></Animated>
               <Animated animationIn="bounceInLeft">
-              <h5>Show some Love 2021
+              <h5 style={{fontWeight:'bold'}}>Show some Love 2021
               </h5></Animated>
-              <Animated animationIn="bounceInRight"><p>This Year, Show some love by sponsoring meals
+              <Animated animationIn="bounceInRight"><p style={{fontWeight:'bold'}}>This Year, Show some love by sponsoring meals
               </p><br />    
               </Animated>
               <p className="button"><a href="!#">DONATE NOW</a></p>

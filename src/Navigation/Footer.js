@@ -1,5 +1,6 @@
 import React from "react";
 import { MDBCol, MDBContainer, MDBRow, MDBFooter } from "mdbreact";
+import {BrowserRouter as Router ,Link} from 'react-router-dom';
 import HomeIcon from '@material-ui/icons/Home';
 import EmailIcon from '@material-ui/icons/Email';
 import PhoneIcon from '@material-ui/icons/Phone';
@@ -9,11 +10,12 @@ import YouTubeIcon from '@material-ui/icons/YouTube';
 
 const Footer= () => {
   return (
+    <Router>
     <MDBFooter color="pink" className="font-small pt-4 mt-4">
       <MDBContainer className="text-center text-md-left">
         <MDBRow className="text-center text-md-left mt-3 pb-3">
           <MDBCol md="3" lg="3" xl="3" className="mx-auto mt-3">
-            <h6 className="text-uppercase mb-4 font-weight-bold">
+            <h6 className="text-uppercase font-weight-bold">
               Our Purpose
             </h6>
             <p>
@@ -26,14 +28,14 @@ const Footer= () => {
          
           <hr className="w-100 clearfix d-md-none" />
           <MDBCol md="3" lg="2" xl="2" className="mx-auto mt-3">
-            <h6 className="text-uppercase mb-4 font-weight-bold">
+            <h6 className="text-uppercase font-weight-bold">
               Quick links
             </h6>
             <p>
               <a href="/">Home</a>
             </p>
             <p>
-              <a href="/EventPage">Events</a>
+              <Link to="/EventPage">Events</Link>
             </p>
             <p>
               <a href="/AboutPage">About Us</a>
@@ -44,7 +46,7 @@ const Footer= () => {
           </MDBCol>
           <hr className="w-100 clearfix d-md-none" />
           <MDBCol md="4" lg="3" xl="3" className="mx-auto mt-3">
-            <h6 className="text-uppercase mb-4 font-weight-bold">Contact</h6>
+            <h6 className="text-uppercase font-weight-bold">Contact</h6>
             <p>
               <HomeIcon/> Amie Foundation, on Kamiti Road, Opposite Jacaranda Gardens
             </p>
@@ -63,7 +65,7 @@ const Footer= () => {
             <p className="text-center text-md-left grey-text">
               &copy; {new Date().getFullYear()} Copyright:{" "}
                All rights reserved|
-               website designed by <a href="/EventPage">Diana nyamai</a>
+               website designed by <a href="https://twitter.com/nyamai_diana">Diana nyamai</a>
             </p>
           </MDBCol>
           <MDBCol md="4" lg="4" className="ml-lg-0">
@@ -85,7 +87,7 @@ const Footer= () => {
           </MDBCol>
         </MDBRow>
       </MDBContainer>
-    </MDBFooter>
+    </MDBFooter></Router>
   );
 }
 
