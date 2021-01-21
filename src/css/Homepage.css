@@ -16,6 +16,9 @@ h4{
     letter-spacing: 2px;
     color: #000;
 }
+@media screen and (max-width:400px){
+
+}
 .button a{
     background: #e91e63;
     color: #fff;
