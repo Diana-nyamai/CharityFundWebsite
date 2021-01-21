@@ -58,6 +58,8 @@ class Homepage extends React.Component {
           </Router>
 
           <Carousel>
+          
+
           <Carousel.Item interval={3000}>
           <MDBView src="../Images/landing1.jpeg">
             <MDBMask overlay="purple-light" className="flex-center flex-column text-white text-center">
@@ -65,7 +67,7 @@ class Homepage extends React.Component {
               <h2 style={{fontSize:'70px'}}>HEALTHY MEALS </h2>
               <h2 style={{fontSize:'70'}}>FOR lOW INCOME EARNERS</h2></Animated>
               <Animated animationIn="bounceInLeft">
-              <h5>Today in Kenya,
+              <h5 style={{overflowY:'hidden'}}>Today in Kenya,
               </h5></Animated>
               <Animated  animationIn="bounceInRight"><p>Food security depends on whether households have stable incomes to afford food</p><br /></Animated>
               <p className="button"><a href="https://docs.google.com/forms/d/e/1FAIpQLScElLmk-MuBzgNdWiY2LCdJ8W_kGeaseegRp4xT_GGGFRtylQ/viewform?usp=pp_url">JOIN US TODAY</a></p>
@@ -93,12 +95,14 @@ class Homepage extends React.Component {
               <h2 style={{fontSize:'70px'}}>HEALTHY MEALS </h2>
               <h2 style={{fontSize:'70'}}>FOR lOW INCOME EARNERS</h2></Animated>
               <Animated animationIn="bounceInLeft">
-              <h5>Today in Kenya,
+              <h5 style={{overflowY:'hidden'}}>Today in Kenya,
               </h5></Animated>
               <Animated  animationIn="bounceInRight"><p>Food security depends on whether households have stable incomes to afford food</p><br /></Animated>
               <p className="button"><a href="https://docs.google.com/forms/d/e/1FAIpQLScElLmk-MuBzgNdWiY2LCdJ8W_kGeaseegRp4xT_GGGFRtylQ/viewform?usp=pp_url">JOIN US TODAY</a></p>
             </MDBMask>
           </MDBView></Carousel.Item>
+
+         
           
           </Carousel>
 
