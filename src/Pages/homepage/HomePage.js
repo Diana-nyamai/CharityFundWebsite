@@ -1,6 +1,6 @@
 import React from 'react';
 import { MDBNavbar, MDBNavbarNav, MDBNavbarToggler, MDBCollapse, MDBNavItem, MDBMask, MDBView } from 'mdbreact';
-import { BrowserRouter as Router,Route,Switch} from 'react-router-dom';
+import { BrowserRouter as Router} from 'react-router-dom';
 import {Carousel} from 'react-bootstrap';
 import {Nav,Navbar} from 'react-bootstrap';
 import {Animated} from "react-animated-css";
@@ -8,10 +8,7 @@ import UpcomingEvents from './UpcomingEvents';
 import Volunteers from './Volunteers';
 import BecomeVolunteer from './BecomeVolunteer';
 import LatestNews from './LatestNews';
-import EventPage from '../eventpage/EventPage';
-import StoriesUntold from '../storiesUntold/StoriesUntold';
-import ContactPage from '../contactpage/ContactPage';
-import AboutPage from '../aboutpage/AboutPage';
+
 
 class Homepage extends React.Component {
   constructor(props) {
@@ -34,14 +31,7 @@ class Homepage extends React.Component {
       <div>
         <header>
           <Router>
-          <Switch>
-          <Route exact path="/" component={Homepage}/>
-          <Route path="/EventPage" component={EventPage}/>
-          <Route path="/StoriesUntold" component={StoriesUntold}/>
-          <Route path="/ContactPage" component={ContactPage}/>
-          <Route path="/AboutPage" component={AboutPage}/>
-          </Switch>
-
+          
             <MDBNavbar color="pink" fixed="top" dark expand="md" scrolling transparent>
               <Navbar.Brand href="/">
                <img src="../Images/logo.png" alt="logo"/>
