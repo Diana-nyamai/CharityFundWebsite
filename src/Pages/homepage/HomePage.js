@@ -1,6 +1,6 @@
 import React from 'react';
 import { MDBNavbar, MDBNavbarNav, MDBNavbarToggler, MDBCollapse, MDBNavItem, MDBMask, MDBView } from 'mdbreact';
-import { BrowserRouter as Router} from 'react-router-dom';
+import { BrowserRouter as Router,Switch} from 'react-router-dom';
 import {Carousel} from 'react-bootstrap';
 import {Nav,Navbar} from 'react-bootstrap';
 import {Animated} from "react-animated-css";
@@ -31,7 +31,7 @@ class Homepage extends React.Component {
       <div>
         <header>
           <Router>
-          
+          <Switch>
             <MDBNavbar color="pink" fixed="top" dark expand="md" scrolling transparent>
               <Navbar.Brand href="/">
                <img src="../Images/logo.png" alt="logo"/>
@@ -56,7 +56,7 @@ class Homepage extends React.Component {
                   </MDBNavItem>
                 </MDBNavbarNav>
               </MDBCollapse>
-            </MDBNavbar>
+            </MDBNavbar></Switch>
           </Router>
 
           <Carousel>
