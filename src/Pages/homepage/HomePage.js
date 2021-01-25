@@ -39,10 +39,10 @@ class Homepage extends React.Component {
               <MDBCollapse isOpen={this.state.collapse} navbar>
                 <MDBNavbarNav right>
                   <MDBNavItem active>
-                    <Nav.Link to="/">Home</Nav.Link>
+                    <Nav.Link  eventKey={1} to="/">Home</Nav.Link>
                   </MDBNavItem>
                   <MDBNavItem>
-                    <Link exact to="/AboutPage">About Amie</Link>  
+                    <Link  eventKey={2} exact to="/AboutPage">About Amie</Link>  
                   </MDBNavItem> 
                    <MDBNavItem>
                   <Nav.Link href="/StoriesUntold">Stories Untold</Nav.Link>

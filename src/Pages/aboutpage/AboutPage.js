@@ -1,6 +1,6 @@
 import React from 'react';
 import { MDBNavbar, MDBNavbarNav, MDBNavbarToggler, MDBCollapse, MDBNavItem, MDBContainer, MDBMask, MDBView } from 'mdbreact';
-import { BrowserRouter as Router } from 'react-router-dom';
+import { BrowserRouter as Router ,Link} from 'react-router-dom';
 import {Nav,Navbar} from 'react-bootstrap';
 import {Animated} from "react-animated-css";
 import AllVolunteers from './AllVolunteers';
@@ -34,10 +34,10 @@ class AboutPage extends React.Component {
               <MDBCollapse isOpen={this.state.collapse} navbar>
                 <MDBNavbarNav right>
                   <MDBNavItem>
-                    <Nav.Link href="/">Home</Nav.Link>
+                    <Nav.Link  eventKey={1} href="/">Home</Nav.Link>
                   </MDBNavItem>
                    <MDBNavItem active>
-                    <Nav.Link to="/AboutPage">About Amie</Nav.Link>
+                    <Link  eventKey={2} to="/AboutPage">About Amie</Link>
                   </MDBNavItem> 
                   <MDBNavItem>
                   <Nav.Link href="/StoriesUntold">Stories Untold</Nav.Link>
