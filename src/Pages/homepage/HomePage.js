@@ -1,6 +1,6 @@
 import React from 'react';
 import { MDBNavbar, MDBNavbarNav, MDBNavbarToggler, MDBCollapse, MDBNavItem, MDBMask, MDBView } from 'mdbreact';
-import { BrowserRouter as Router,Link} from 'react-router-dom';
+import { BrowserRouter as Router,NavLink} from 'react-router-dom';
 import {Carousel} from 'react-bootstrap';
 import {Nav,Navbar} from 'react-bootstrap';
 import {Animated} from "react-animated-css";
@@ -42,7 +42,7 @@ class Homepage extends React.Component {
                     <Nav.Link  eventKey={1} to="/">Home</Nav.Link>
                   </MDBNavItem>
                   <MDBNavItem>
-                    <Link  eventKey={2} exact to="/AboutPage">About Amie</Link>  
+                    <NavLink  eventKey={2} activeClassName="selectedLink" to="/AboutPage">About Amie</NavLink>  
                   </MDBNavItem> 
                    <MDBNavItem>
                   <Nav.Link href="/StoriesUntold">Stories Untold</Nav.Link>
