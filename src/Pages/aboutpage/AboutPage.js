@@ -1,6 +1,6 @@
 import React from 'react';
 import { MDBNavbar, MDBNavbarNav, MDBNavbarToggler, MDBCollapse, MDBNavItem, MDBContainer, MDBMask, MDBView } from 'mdbreact';
-import { BrowserRouter as Router ,NavLink} from 'react-router-dom';
+import { BrowserRouter as Router } from 'react-router-dom';
 import {Nav,Navbar} from 'react-bootstrap';
 import {Animated} from "react-animated-css";
 import AllVolunteers from './AllVolunteers';
