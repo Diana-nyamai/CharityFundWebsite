@@ -1,7 +1,7 @@
 import React from 'react';
 import { MDBNavbar, MDBNavbarNav, MDBNavbarToggler, MDBCollapse, MDBNavItem, MDBMask, MDBView } from 'mdbreact';
 import { BrowserRouter as Router,NavLink} from 'react-router-dom';
-import {Carousel} from 'react-bootstrap';
+import {Carousel,} from 'react-bootstrap';
 import {Nav,Navbar} from 'react-bootstrap';
 import {Animated} from "react-animated-css";
 import UpcomingEvents from './UpcomingEvents';
@@ -39,10 +39,12 @@ class Homepage extends React.Component {
               <MDBCollapse isOpen={this.state.collapse} navbar>
                 <MDBNavbarNav right>
                   <MDBNavItem active>
-                    <Nav.Link  eventKey={1} to="/">Home</Nav.Link>
+                  <LinkContainer to="/">
+                    <Nav.Link  to="/">Home</Nav.Link>
+                    </LinkContainer>
                   </MDBNavItem>
                   <MDBNavItem>
-                    <NavLink  eventKey={2} activeClassName="selectedLink" to="/AboutPage">About Amie</NavLink>  
+                    <Nav.Link  eventKey={2} activeClassName="selectedLink" to="/AboutPage">About Amie</Nav.Link>  
                   </MDBNavItem> 
                    <MDBNavItem>
                   <Nav.Link href="/StoriesUntold">Stories Untold</Nav.Link>

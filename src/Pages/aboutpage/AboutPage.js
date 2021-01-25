@@ -37,7 +37,7 @@ class AboutPage extends React.Component {
                     <Nav.Link  eventKey={1} href="/">Home</Nav.Link>
                   </MDBNavItem>
                    <MDBNavItem active>
-                    <NavLink  eventKey={2} activeClassName="selectedLink" to="/AboutPage">About Amie</NavLink>
+                    <Nav.Link  eventKey={2} activeClassName="selectedLink" to="/AboutPage">About Amie</Nav.Link>
                   </MDBNavItem> 
                   <MDBNavItem>
                   <Nav.Link href="/StoriesUntold">Stories Untold</Nav.Link>
