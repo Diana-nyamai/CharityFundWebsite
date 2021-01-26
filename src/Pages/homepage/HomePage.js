@@ -9,6 +9,8 @@ import Volunteers from './Volunteers';
 import BecomeVolunteer from './BecomeVolunteer';
 import LatestNews from './LatestNews';
 import AboutPage from '../aboutpage/AboutPage';
+import { LinkContainer } from 'react-router-bootstrap';
+import StoriesUntold from '../storiesUntold/StoriesUntold';
 
 
 
@@ -32,6 +34,8 @@ class Homepage extends React.Component {
     return (
       <div>
        <Route path="/AboutPage" component={AboutPage}/>
+       <Route path="/StoriesUntold" component={StoriesUntold
+      }/>
         <header>
           <Router>
          
@@ -43,17 +47,13 @@ class Homepage extends React.Component {
               <MDBCollapse isOpen={this.state.collapse} navbar>
                 <MDBNavbarNav right>
                   <MDBNavItem active>
-                 
                     <Nav.Link href="/" >Home</Nav.Link>
-                   
                   </MDBNavItem>
                   <MDBNavItem>
-                 
-                    <Link to="/AboutPage">About Amie</Link>  
-                    
+                  <Nav.Link href="/AboutPage">About Page</Nav.Link>
                     </MDBNavItem> 
                    <MDBNavItem>
-                  <Nav.Link href="/StoriesUntold">Stories Untold</Nav.Link>
+                   <Nav.Link href="/StoriesUntold">Stories Untold</Nav.Link>
                 </MDBNavItem>
                   <MDBNavItem>
                     <Nav.Link href="/EventPage">Events</Nav.Link>
