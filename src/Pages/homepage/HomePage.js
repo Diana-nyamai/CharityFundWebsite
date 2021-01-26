@@ -10,8 +10,6 @@ import BecomeVolunteer from './BecomeVolunteer';
 import LatestNews from './LatestNews';
 import AboutPage from '../aboutpage/AboutPage';
 import StoriesUntold from '../storiesUntold/StoriesUntold';
-import { LinkContainer } from 'react-router-bootstrap';
-
 
 
 class Homepage extends React.Component {
@@ -50,10 +48,9 @@ class Homepage extends React.Component {
                     <Nav.Link href="/" >Home</Nav.Link>
                   </MDBNavItem>
                   <MDBNavItem>
-                  <LinkContainer to="/AboutPage">
-                  <Nav.Link>About Page</Nav.Link>
-                 </LinkContainer>
-                  <Route path="/AboutPage" component={AboutPage}/> 
+                  
+                  <Nav.Link href="/AboutPage">About Page</Nav.Link>
+            
                     </MDBNavItem> 
                    <MDBNavItem>
                    <Nav.Link href="/StoriesUntold">Stories Untold</Nav.Link>
