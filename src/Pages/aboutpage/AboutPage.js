@@ -4,6 +4,7 @@ import { BrowserRouter as Router } from 'react-router-dom';
 import {Nav,Navbar} from 'react-bootstrap';
 import {Animated} from "react-animated-css";
 import AllVolunteers from './AllVolunteers';
+import { LinkContainer } from 'react-router-bootstrap';
 
 class AboutPage extends React.Component {
   constructor(props) {
@@ -34,10 +35,14 @@ class AboutPage extends React.Component {
               <MDBCollapse isOpen={this.state.collapse} navbar>
                 <MDBNavbarNav right>
                   <MDBNavItem>
-                    <Nav.Link  eventKey={1} href="/">Home</Nav.Link>
+                  <LinkContainer to="/">
+                    <Nav.Link  href="/">Home</Nav.Link>
+                    </LinkContainer>
                   </MDBNavItem>
                    <MDBNavItem active>
-                    <Nav.Link  eventKey={2} activeClassName="selectedLink" to="/AboutPage">About Amie</Nav.Link>
+                   <LinkContainer to="/AboutPage">
+                    <Nav.Link href="/AboutPage">About Amie</Nav.Link>
+                    </LinkContainer>
                   </MDBNavItem> 
                   <MDBNavItem>
                   <Nav.Link href="/StoriesUntold">Stories Untold</Nav.Link>

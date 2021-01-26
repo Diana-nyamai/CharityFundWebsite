@@ -41,12 +41,12 @@ class Homepage extends React.Component {
                 <MDBNavbarNav right>
                   <MDBNavItem active>
                   <LinkContainer to="/">
-                    <Nav.Link >Home</Nav.Link>
+                    <Nav.Link href="/" >Home</Nav.Link>
                     </LinkContainer>
                   </MDBNavItem>
                   <MDBNavItem>
                   <LinkContainer to="/AboutPage">
-                    <Nav.Link >About Amie</Nav.Link>  
+                    <Nav.Link href="/AboutPage">About Amie</Nav.Link>  
                   </LinkContainer>
                     </MDBNavItem> 
                    <MDBNavItem>
