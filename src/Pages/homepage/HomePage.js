@@ -1,13 +1,14 @@
 import React from 'react';
 import { MDBNavbar, MDBNavbarNav, MDBNavbarToggler, MDBCollapse, MDBNavItem, MDBMask, MDBView } from 'mdbreact';
-import { BrowserRouter as Router} from 'react-router-dom';
-import {Carousel,} from 'react-bootstrap';
+import { BrowserRouter as Router,Link, Route} from 'react-router-dom';
+import {Carousel} from 'react-bootstrap';
 import {Nav,Navbar} from 'react-bootstrap';
 import {Animated} from "react-animated-css";
 import UpcomingEvents from './UpcomingEvents';
 import Volunteers from './Volunteers';
 import BecomeVolunteer from './BecomeVolunteer';
 import LatestNews from './LatestNews';
+import AboutPage from '../aboutpage/AboutPage';
 
 
 
@@ -30,8 +31,10 @@ class Homepage extends React.Component {
   render() {
     return (
       <div>
+       <Route path="/AboutPage" component={AboutPage}/>
         <header>
           <Router>
+         
             <MDBNavbar color="pink" fixed="top" dark expand="md" scrolling transparent>
               <Navbar.Brand href="/">
                <img src="../Images/logo.png" alt="logo"/>
@@ -46,8 +49,8 @@ class Homepage extends React.Component {
                   </MDBNavItem>
                   <MDBNavItem>
                  
-                    <Nav.Link href="/AboutPage">About Amie</Nav.Link>  
-                 
+                    <Link to="/AboutPage">About Amie</Link>  
+                    
                     </MDBNavItem> 
                    <MDBNavItem>
                   <Nav.Link href="/StoriesUntold">Stories Untold</Nav.Link>
