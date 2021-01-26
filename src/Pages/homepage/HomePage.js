@@ -31,9 +31,7 @@ class Homepage extends React.Component {
   render() {
     return (
       <div>
-       <Route path="/AboutPage" component={AboutPage}/>
-       <Route path="/StoriesUntold" component={StoriesUntold
-      }/>
+      
         <header>
           <Router>
          
