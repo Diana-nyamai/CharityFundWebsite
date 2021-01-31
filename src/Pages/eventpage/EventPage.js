@@ -59,7 +59,7 @@ class EventPage extends React.Component {
               <Animated animationIn="bounceInLeft">
               <h5 style={{fontWeight:'bold'}}>Show some Love 2021
               </h5></Animated>
-              <Animated animationIn="bounceInRight"><p style={{fontWeight:'bold'}}>This Year, Show some love by sponsoring meals
+              <Animated animationIn="bounceInRight"><p style={{fontWeight:'bold', overflowY:'hidden'}}>This Year, Show some love by sponsoring meals
               </p><br />    
               </Animated>
               <p className="button"><a href="!#">DONATE NOW</a></p>
