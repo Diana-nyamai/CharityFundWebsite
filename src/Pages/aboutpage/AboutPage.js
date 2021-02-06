@@ -5,6 +5,7 @@ import {Nav,Navbar} from 'react-bootstrap';
 import {Animated} from "react-animated-css";
 import AllVolunteers from './AllVolunteers';
 
+
 class AboutPage extends React.Component {
   constructor(props) {
     super(props);
@@ -34,10 +35,14 @@ class AboutPage extends React.Component {
               <MDBCollapse isOpen={this.state.collapse} navbar>
                 <MDBNavbarNav right>
                   <MDBNavItem>
-                    <Nav.Link href="/">Home</Nav.Link>
+                 
+                    <Nav.Link  href="/">Home</Nav.Link>
+                   
                   </MDBNavItem>
                    <MDBNavItem active>
+                 
                     <Nav.Link href="/AboutPage">About Amie</Nav.Link>
+                  
                   </MDBNavItem> 
                   <MDBNavItem>
                   <Nav.Link href="/StoriesUntold">Stories Untold</Nav.Link>
